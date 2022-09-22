@@ -378,7 +378,7 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 | {    | &    | *    | (    | }    |
 | +    | $    | %    | ^    | :    |
 | PIPE | !    | @    | #    | ~    |
-| _    | (    | )    | U_NP | U_NP |
+| _    | )    | (    | U_NP | U_NP |
 
 
 ****** Fun
@@ -433,8 +433,8 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 #+NAME: nav-l-invertedt
 | PGUP  | HOME  | UP    | END   | INS   |
 | PGDN  | LEFT  | DOWN  | RGHT  | CAPS  |
-| U_UND | U_CUT | U_CPY | U_PST | U_RDO |
-| U_NP  | U_NP  | DEL   | BSPC  | ENT   |
+| BSPC  | U_CUT | U_CPY | U_PST | DEL   |
+| U_NP  | U_NP  | DEL   | APP   | ENT   |
 
 
 ******** Mouse

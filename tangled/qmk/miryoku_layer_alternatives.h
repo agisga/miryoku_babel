@@ -253,8 +253,8 @@ U_NP,              U_NP,              KC_ESC,            KC_SPC,            KC_T
 #define MIRYOKU_ALTERNATIVES_NAV_INVERTEDT_FLIP \
 KC_PGUP,           KC_HOME,           KC_UP,             KC_END,            KC_INS,            U_NA,              DF(U_BASE),        DF(U_EXTRA),       DF(U_TAP),         RESET,             \
 KC_PGDN,           KC_LEFT,           KC_DOWN,           KC_RGHT,           KC_CAPS,           U_NA,              KC_LSFT,           KC_LCTL,           KC_LALT,           KC_LGUI,           \
-U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_NA,              DF(U_NAV),         DF(U_NUM),         KC_ALGR,           U_NA,              \
-U_NP,              U_NP,              KC_DEL,            KC_BSPC,           KC_ENT,            U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+KC_BSPC,           U_CUT,             U_CPY,             U_PST,             KC_DEL,            U_NA,              DF(U_NAV),         DF(U_NUM),         KC_ALGR,           U_NA,              \
+U_NP,              U_NP,              KC_DEL,            KC_APP,            KC_ENT,            U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NAV_FLIP \
 KC_HOME,           KC_PGDN,           KC_PGUP,           KC_END,            KC_INS,            U_NA,              DF(U_BASE),        DF(U_EXTRA),       DF(U_TAP),         RESET,             \
@@ -360,7 +360,7 @@ U_NP,              U_NP,              KC_DOT,            KC_0,              KC_M
 RESET,             DF(U_TAP),         DF(U_EXTRA),       DF(U_BASE),        U_NA,              KC_LCBR,           KC_AMPR,           KC_ASTR,           KC_LPRN,           KC_RCBR,           \
 KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           U_NA,              KC_PLUS,           KC_DLR,            KC_PERC,           KC_CIRC,           KC_COLN,           \
 U_NA,              KC_ALGR,           DF(U_MOUSE),       DF(U_SYM),         U_NA,              KC_PIPE,           KC_EXLM,           KC_AT,             KC_HASH,           KC_TILD,           \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              KC_UNDS,           KC_LPRN,           KC_RPRN,           U_NP,              U_NP
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              KC_UNDS,           KC_RPRN,           KC_LPRN,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM \
 KC_LCBR,           KC_AMPR,           KC_ASTR,           KC_LPRN,           KC_RCBR,           U_NA,              DF(U_BASE),        DF(U_EXTRA),       DF(U_TAP),         RESET,             \

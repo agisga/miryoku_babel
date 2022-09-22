@@ -251,8 +251,8 @@ U_NP,              U_NP,              &kp ESC,           &kp SPC,           &kp 
 #define MIRYOKU_ALTERNATIVES_NAV_INVERTEDT_FLIP \
 &kp PG_UP,         &kp HOME,          &kp UP,            &kp END,           &kp INS,           U_NA,              &to U_BASE,        &to U_EXTRA,       &to U_TAP,         &bootloader,       \
 &kp PG_DN,         &kp LEFT,          &kp DOWN,          &kp RIGHT,         &u_caps_word,      U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_NA,              &to U_NAV,         &to U_NUM,         &kp RALT,          U_NA,              \
-U_NP,              U_NP,              &kp DEL,           &kp BSPC,          &kp RET,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+&kp BSPC,          U_CUT,             U_CPY,             U_PST,             &kp DEL,           U_NA,              &to U_NAV,         &to U_NUM,         &kp RALT,          U_NA,              \
+U_NP,              U_NP,              &kp DEL,           &kp K_APP,         &kp RET,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NAV_FLIP \
 &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           &kp INS,           U_NA,              &to U_BASE,        &to U_EXTRA,       &to U_TAP,         &bootloader,       \
@@ -358,7 +358,7 @@ U_NP,              U_NP,              &kp DOT,           &kp NUM_0,         &kp 
 &bootloader,       &to U_TAP,         &to U_EXTRA,       &to U_BASE,        U_NA,              &kp LBRC,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RBRC,          \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp PLUS,          &kp DLLR,          &kp PRCT,          &kp CRRT,          &kp COLON,         \
 U_NA,              &kp RALT,          &to U_MOUSE,       &to U_SYM,         U_NA,              &kp PIPE,          &kp EXCL,          &kp AT,            &kp HASH,          &kp TILDE,         \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp UNDER,         &kp LPAR,          &kp RPAR,          U_NP,              U_NP
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp UNDER,         &kp RPAR,          &kp LPAR,          U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM \
 &kp LBRC,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RBRC,          U_NA,              &to U_BASE,        &to U_EXTRA,       &to U_TAP,         &bootloader,       \
