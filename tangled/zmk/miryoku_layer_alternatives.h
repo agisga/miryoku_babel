@@ -368,10 +368,10 @@ U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp 
 
 
 #define MIRYOKU_ALTERNATIVES_FUN_FLIP \
-&bootloader,       &to U_TAP,         &to U_EXTRA,       &to U_BASE,        U_NA,              &kp PSCRN,         &kp F7,            &kp F8,            &kp F9,            &kp F12,           \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp SLCK,          &kp F4,            &kp F5,            &kp F6,            &kp F11,           \
-U_NA,              &kp RALT,          &to U_MEDIA,       &to U_FUN,         U_NA,              &kp PAUSE_BREAK,   &kp F1,            &kp F2,            &kp F3,            &kp F10,           \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp TAB,           &kp SPC,           &kp K_APP,         U_NP,              U_NP
+&bootloader,       &to U_TAP,         &to U_EXTRA,       &to U_BASE,        U_NA,              U_NU,              &kp F7,            &kp F8,            &kp F9,            &kp F12,           \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              U_NU,              &kp F4,            &kp F5,            &kp F6,            &kp F11,           \
+U_NA,              &kp RALT,          &to U_MEDIA,       &to U_FUN,         U_NA,              U_NU,              &kp F1,            &kp F2,            &kp F3,            &kp F10,           \
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp TAB,           &kp SPC,           &kp PSCRN,         U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_FUN \
 &kp F12,           &kp F7,            &kp F8,            &kp F9,            &kp PSCRN,         U_NA,              &to U_BASE,        &to U_EXTRA,       &to U_TAP,         &bootloader,       \
