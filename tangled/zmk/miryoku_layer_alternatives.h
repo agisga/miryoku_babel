@@ -251,8 +251,8 @@ U_NP,              U_NP,              &kp ESC,           &kp SPC,           &kp 
 #define MIRYOKU_ALTERNATIVES_NAV_INVERTEDT_FLIP \
 &kp PG_UP,         &kp HOME,          &kp UP,            &kp END,           &kp INS,           U_NA,              &to U_BASE,        &to U_EXTRA,       &to U_TAP,         &bootloader,       \
 &kp PG_DN,         &kp LEFT,          &kp DOWN,          &kp RIGHT,         &u_caps_word,      U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-&kp BSPC,          U_CUT,             U_CPY,             U_PST,             &kp DEL,           U_NA,              &to U_NAV,         &to U_NUM,         &kp RALT,          U_NA,              \
-U_NP,              U_NP,              &kp DEL,           &kp K_APP,         &kp RET,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+&kp BSPC,          U_CUT,             U_CPY,             U_PST,             &kp K_APP,         U_NA,              &to U_NAV,         &to U_NUM,         &kp RALT,          U_NA,              \
+U_NP,              U_NP,              &kp DEL,           &sl U_SYM,         &kp RET,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NAV_FLIP \
 &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           &kp INS,           U_NA,              &to U_BASE,        &to U_EXTRA,       &to U_TAP,         &bootloader,       \

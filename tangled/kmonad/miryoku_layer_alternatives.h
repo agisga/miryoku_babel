@@ -251,8 +251,8 @@ U_NP,              U_NP,              esc,               spc,               tab,
 #define MIRYOKU_ALTERNATIVES_NAV_INVERTEDT_FLIP \
 pgup,              home,              up,                end,               ins,               U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_NA,              \
 pgdn,              left,              down,              right,             caps,              U_NA,              sft,               ctl,               alt,               met,               \
-bspc,              U_CUT,             U_CPY,             U_PST,             del,               U_NA,              U_DF(U_NAV),       U_DF(U_NUM),       ralt,              U_NA,              \
-U_NP,              U_NP,              del,               comp,              ent,               U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+bspc,              U_CUT,             U_CPY,             U_PST,             comp,              U_NA,              U_DF(U_NAV),       U_DF(U_NUM),       ralt,              U_NA,              \
+U_NP,              U_NP,              del,               U_NU,              ent,               U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NAV_FLIP \
 home,              pgdn,              pgup,              end,               ins,               U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_NA,              \

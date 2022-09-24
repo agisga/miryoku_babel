@@ -431,10 +431,10 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 ******** Nav
 
 #+NAME: nav-l-invertedt
-| PGUP  | HOME  | UP    | END   | INS   |
-| PGDN  | LEFT  | DOWN  | RGHT  | CAPS  |
-| BSPC  | U_CUT | U_CPY | U_PST | DEL   |
-| U_NP  | U_NP  | DEL   | APP   | ENT   |
+| PGUP | HOME  | UP    | END       | INS  |
+| PGDN | LEFT  | DOWN  | RGHT      | CAPS |
+| BSPC | U_CUT | U_CPY | U_PST     | APP  |
+| U_NP | U_NP  | DEL   | OSL_U_SYM | ENT  |
 
 
 ******** Mouse
@@ -693,6 +693,7 @@ Source keycode to implementation equivalent (source, QMK, ZMK, KMonad).
 | REC_START   | DYN_REC_START1  |              |               |
 | REC_PLAY    | DYN_MACRO_PLAY1 |              |               |
 | REC_STOP    | DYN_REC_STOP    |              |               |
+| OSL_U_SYM   | OSL(U_SYM)      | &sl U_SYM    |               |
 
 
 **** table-layer-init
@@ -1189,7 +1190,7 @@ Keycodes that match any of these prefixes will not have ~KC_~ automatically
 prepended.
 
 #+NAME: nonkc
-| U_ | RGB_ | OUT_ | RESET | S( | C( | SCMD( | LCMD( | DF( | DYN_ |
+| U_ | RGB_ | OUT_ | RESET | S( | C( | SCMD( | LCMD( | DF( | DYN_ | OSL( |
 
 
 **** license-qmk
