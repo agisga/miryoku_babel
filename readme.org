@@ -357,7 +357,7 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 ****** Hold
 
 #+NAME: hold-flip
-| BOOT  | OSL_U_FUN | OSL_U_SYM | DF(U_BASE) |       |         | DF(U_BASE) | DF(U_EXTRA) | DF(U_TAP) | BOOT     |
+| BOOT  | DF(U_TAP) | OSL_U_SYM | DF(U_BASE) |       |         | DF(U_BASE) | DF(U_EXTRA) | DF(U_TAP) | BOOT     |
 | LGUI  | LALT      | LCTL      | LSFT       |       |         | LSFT       | LCTL        | LALT      | LGUI     |
 | U_UND | U_CUT     | U_CPY     | U_PST      | U_RDO |         | LOCK_CUR   | LOCK_OPP    | ALGR      | U_BUTTON |
 | U_NP  | U_NP      | U_FUN     | U_NUM      | U_SYM | U_MOUSE | U_NAV      | U_MEDIA     | U_NP      | U_NP     |
@@ -693,9 +693,9 @@ Source keycode to implementation equivalent (source, QMK, ZMK, KMonad).
 | REC_START   | DYN_REC_START1  |              |               |
 | REC_PLAY    | DYN_MACRO_PLAY1 |              |               |
 | REC_STOP    | DYN_REC_STOP    |              |               |
-| OSL_U_SYM   | OSL(U_SYM)      | &sl U_SYM    |               |
-| OSL_U_FUN   | OSL(U_FUN)      | &sl U_FUN    |               |
+| OSL_U_SYM   | OSM(MOD_LSFT)   | &sl U_SYM    |               |
 
+Alexej, 2022-09-27: Note the use of OSM(MOD_LSFT). It is a workaround for the fact that QMK doesn't handle chained OSLs well. It currently requires to patch QMK as shown here https://github.com/qmk/qmk_firmware/issues/6943#issuecomment-1223723779
 
 **** table-layer-init
 
@@ -1191,7 +1191,7 @@ Keycodes that match any of these prefixes will not have ~KC_~ automatically
 prepended.
 
 #+NAME: nonkc
-| U_ | RGB_ | OUT_ | RESET | S( | C( | SCMD( | LCMD( | DF( | DYN_ | OSL( |
+| U_ | RGB_ | OUT_ | RESET | S( | C( | SCMD( | LCMD( | DF( | DYN_ | OSL( | OSM( |
 
 
 **** license-qmk
