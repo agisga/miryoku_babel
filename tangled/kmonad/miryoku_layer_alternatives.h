@@ -342,10 +342,10 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 
 #define MIRYOKU_ALTERNATIVES_NUM_FLIP \
-U_NA,              U_DF(U_TAP),       U_NA,              U_DF(U_BASE),      U_NA,              [,                 7,                 8,                 9,                 ],                 \
-met,               alt,               ctl,               sft,               U_NA,              =,                 4,                 5,                 6,                 ;,                 \
-U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             \\,                1,                 2,                 3,                 `,                 \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              -,                 0,                 .,                 U_NP,              U_NP
+U_NA,              U_DF(U_TAP),       U_NA,              U_DF(U_BASE),      ;,                 [,                 7,                 8,                 9,                 ],                 \
+met,               alt,               ctl,               sft,               :,                 =,                 1,                 2,                 3,                 0,                 \
+U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             \\,                4,                 5,                 6,                 `,                 \
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              \_,                -,                 ;,                 U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NUM \
 [,                 7,                 8,                 9,                 ],                 U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_NA,              \
@@ -355,10 +355,10 @@ U_NP,              U_NP,              .,                 0,                 -,  
 
 
 #define MIRYOKU_ALTERNATIVES_SYM_FLIP \
-U_NA,              U_DF(U_TAP),       U_NA,              U_DF(U_BASE),      U_NA,              {,                 &,                 *,                 U_LPRN,            },                 \
-met,               alt,               ctl,               sft,               U_NA,              +,                 $,                 %,                 ^,                 :,                 \
-U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_PIPE,            !,                 @,                 #,                 ~,                 \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              \_,                U_RPRN,            U_LPRN,            U_NP,              U_NP
+U_NA,              U_DF(U_TAP),       U_NA,              U_DF(U_BASE),      ;,                 {,                 &,                 *,                 U_LPRN,            },                 \
+met,               alt,               ctl,               sft,               :,                 +,                 !,                 @,                 #,                 U_RPRN,            \
+U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_PIPE,            $,                 %,                 ^,                 ~,                 \
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              \_,                \_,                :,                 U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM \
 {,                 &,                 *,                 U_LPRN,            },                 U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_NA,              \
@@ -368,9 +368,9 @@ U_NP,              U_NP,              U_LPRN,            U_RPRN,            \_, 
 
 
 #define MIRYOKU_ALTERNATIVES_FUN_FLIP \
-U_NA,              U_DF(U_TAP),       U_NA,              U_DF(U_BASE),      U_NA,              U_NU,              f7,                f8,                f9,                f12,               \
-met,               alt,               ctl,               sft,               U_NA,              U_NU,              f4,                f5,                f6,                f11,               \
-U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_NU,              f1,                f2,                f3,                f10,               \
+U_NA,              U_DF(U_TAP),       U_NA,              U_DF(U_BASE),      ;,                 U_NU,              f7,                f8,                f9,                f12,               \
+met,               alt,               ctl,               sft,               :,                 U_NU,              f1,                f2,                f3,                f10,               \
+U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_NU,              f4,                f5,                f6,                f11,               \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              tab,               spc,               sysrq,             U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_FUN \

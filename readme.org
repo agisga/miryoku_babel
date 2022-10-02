@@ -357,8 +357,8 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 ****** Hold
 
 #+NAME: hold-flip
-| BOOT  | DF(U_TAP) | OSL_U_SYM | DF(U_BASE) |       |         | DF(U_BASE) | DF(U_EXTRA) | DF(U_TAP) | BOOT     |
-| LGUI  | LALT      | LCTL      | LSFT       |       |         | LSFT       | LCTL        | LALT      | LGUI     |
+| BOOT  | DF(U_TAP) | OSL_U_SYM | DF(U_BASE) | SCLN  |         | DF(U_BASE) | DF(U_EXTRA) | DF(U_TAP) | BOOT     |
+| LGUI  | LALT      | LCTL      | LSFT       | COLN  |         | LSFT       | LCTL        | LALT      | LGUI     |
 | U_UND | U_CUT     | U_CPY     | U_PST      | U_RDO |         | LOCK_CUR   | LOCK_OPP    | ALGR      | U_BUTTON |
 | U_NP  | U_NP      | U_FUN     | U_NUM      | U_SYM | U_MOUSE | U_NAV      | U_MEDIA     | U_NP      | U_NP     |
 
@@ -366,27 +366,27 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 ****** Num
 
 #+NAME: num-r
-| [    | 7    | 8    | 9    | ]    |
-| =    | 4    | 5    | 6    | ;    |
-| \    | 1    | 2    | 3    | `    |
-| MINS | 0    | DOT  | U_NP | U_NP |
+| [ |    7 | 8 |    9 | ]    |
+| = |    1 | 2 |    3 | 0    |
+| \ |    4 | 5 |    6 | `    |
+| _ | MINS | ; | U_NP | U_NP |
 
 
 ****** Sym
 
 #+NAME: sym-r
-| {    | &    | *    | (    | }    |
-| +    | $    | %    | ^    | :    |
-| PIPE | !    | @    | #    | ~    |
-| _    | )    | (    | U_NP | U_NP |
+| {    | & | * | (    | }    |
+| +    | ! | @ | #    | )    |
+| PIPE | $ | % | ^    | ~    |
+| _    | _ | : | U_NP | U_NP |
 
 
 ****** Fun
 
 #+NAME: fun-r
 | REC_START | F7  | F8   | F9   | F12  |
-| REC_PLAY  | F4  | F5   | F6   | F11  |
-| REC_STOP  | F1  | F2   | F3   | F10  |
+| REC_PLAY  | F1  | F2   | F3   | F10  |
+| REC_STOP  | F4  | F5   | F6   | F11  |
 | TAB       | SPC | PSCR | U_NP | U_NP |
 
 
