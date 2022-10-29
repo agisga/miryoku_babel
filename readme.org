@@ -131,9 +131,9 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 *** Button
 
 #+NAME: button
-| U_UND | U_CUT | U_CPY | U_PST | U_RDO | U_RDO | U_PST | U_CPY | U_CUT | U_UND |
-| LGUI  | LALT  | LCTL  | LSFT  |       |       | LSFT  | LCTL  | LALT  | LGUI  |
-| U_UND | U_CUT | U_CPY | U_PST | U_RDO | U_RDO | U_PST | U_CPY | U_CUT | U_UND |
+| U_UND  | U_CUT  | U_CPY  | U_PST  | U_RDO | U_RDO | U_PST | U_CPY | U_CUT | U_UND |
+| ALGR_Q | ALGR_P | ALGR_S | ALGR_Y |       |       |       |       |       |       |
+| U_UND  | U_CUT  | U_CPY  | U_PST  | U_RDO | U_RDO | U_PST | U_CPY | U_CUT | U_UND |
 
 #+NAME: button-thumbs
 | U_NP  | U_NP  | BTN3  | BTN1  | BTN2  | BTN2  | BTN1  | BTN3  | U_NP  | U_NP  |
@@ -697,7 +697,10 @@ Source keycode to implementation equivalent (source, QMK, ZMK, KMonad).
 | REC_PLAY2   | DYN_MACRO_PLAY2 |               |               |
 | OSL_U_NUM   | OSL(U_NUM)      | &sl U_NUM     |               |
 | OSM_LSFT    | OSM(MOD_LSFT)   | &skq LSHFT    |               |
-
+| ALGR_Q      | RALT(Q)         | RA(Q)         |               |
+| ALGR_P      | RALT(P)         | RA(P)         |               |
+| ALGR_S      | RALT(S)         | RA(S)         |               |
+| ALGR_Y      | RALT(Y)         | RA(Y)         |               |
 
 **** table-layer-init
 
