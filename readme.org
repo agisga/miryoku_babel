@@ -357,10 +357,10 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 ****** Hold
 
 #+NAME: hold-flip
-| BOOT  | DF(U_TAP) | U_SYM | DF(U_BASE) | SCLN  |         | DF(U_BASE) | DF(U_EXTRA) | DF(U_TAP) | BOOT |
-| LGUI  | LALT      | LCTL  | LSFT       | COLN  |         | LSFT       | LCTL        | LALT      | LGUI |
-| U_UND | U_CUT     | U_CPY | U_PST      | U_RDO |         | LOCK_CUR   | LOCK_OPP    |           |      |
-| U_NP  | U_NP      | U_FUN | U_NA       | U_NA  | U_MOUSE | U_NAV      | U_MEDIA     | U_NP      | U_NP |
+| BOOT  | DF(U_TAP) | U_SYM | DF(U_BASE) | SCLN  |         | DF(U_BASE) | DF(U_EXTRA) | DF(U_TAP) | BOOT     |
+| LGUI  | LALT      | LCTL  | LSFT       | COLN  |         | LSFT       | LCTL        | LALT      | LGUI     |
+| U_UND | U_CUT     | U_CPY | U_PST      | U_RDO |         | LOCK_CUR   | LOCK_OPP    | ALGR      | U_BUTTON |
+| U_NP  | U_NP      | U_FUN | U_NA       | U_NA  | U_MOUSE | U_NAV      | U_MEDIA     | U_NP      | U_NP     |
 
 
 ****** Num
