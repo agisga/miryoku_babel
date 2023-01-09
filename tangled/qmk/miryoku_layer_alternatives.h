@@ -357,9 +357,9 @@ U_NP,              U_NP,              KC_DOT,            KC_0,              KC_M
 
 
 #define MIRYOKU_ALTERNATIVES_SYM_FLIP \
-TD(U_TD_BOOT),     TD(U_TD_U_TAP),    U_NA,              TD(U_TD_U_BASE),   KC_SCLN,           KC_LCBR,           KC_AMPR,           KC_ASTR,           KC_LPRN,           KC_RCBR,           \
-KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           KC_COLN,           KC_PLUS,           KC_EXLM,           KC_AT,             KC_HASH,           KC_RPRN,           \
-U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             KC_PIPE,           KC_DLR,            KC_PERC,           KC_CIRC,           KC_TILD,           \
+TD(U_TD_BOOT),     TD(U_TD_U_TAP),    U_NA,              TD(U_TD_U_BASE),   U_NA,              KC_LCBR,           KC_AMPR,           KC_ASTR,           KC_LPRN,           KC_RCBR,           \
+KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           U_NA,              KC_PLUS,           KC_EXLM,           KC_AT,             KC_HASH,           KC_RPRN,           \
+U_NA,              U_NA,              TD(U_TD_U_MOUSE),  TD(U_TD_U_SYM),    U_NA,              KC_PIPE,           KC_DLR,            KC_PERC,           KC_CIRC,           KC_TILD,           \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              KC_COLN,           KC_SCLN,           U_NP,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM \
@@ -370,9 +370,9 @@ U_NP,              U_NP,              KC_LPRN,           KC_RPRN,           KC_U
 
 
 #define MIRYOKU_ALTERNATIVES_FUN_FLIP \
-TD(U_TD_BOOT),     TD(U_TD_U_TAP),    U_NA,              TD(U_TD_U_BASE),   KC_SCLN,           DYN_REC_START1,    KC_F7,             KC_F8,             KC_F9,             KC_F12,            \
-KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           KC_COLN,           DYN_MACRO_PLAY1,   KC_F1,             KC_F2,             KC_F3,             KC_F10,            \
-U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             DYN_REC_STOP,      KC_F4,             KC_F5,             KC_F6,             KC_F11,            \
+TD(U_TD_BOOT),     TD(U_TD_U_TAP),    U_NA,              TD(U_TD_U_BASE),   U_NA,              DYN_REC_START1,    KC_F7,             KC_F8,             KC_F9,             KC_F12,            \
+KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           U_NA,              DYN_MACRO_PLAY1,   KC_F1,             KC_F2,             KC_F3,             KC_F10,            \
+U_NA,              U_NA,              TD(U_TD_U_MEDIA),  TD(U_TD_U_FUN),    U_NA,              DYN_REC_STOP,      KC_F4,             KC_F5,             KC_F6,             KC_F11,            \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              KC_TAB,            KC_SPC,            KC_PSCR,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_FUN \

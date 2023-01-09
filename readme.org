@@ -357,13 +357,14 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 ****** Hold
 
 #+NAME: hold-flip
-| BOOT  | DF(U_TAP) | U_SYM | DF(U_BASE) | SCLN  |         | DF(U_BASE) | DF(U_EXTRA) | DF(U_TAP) | BOOT     |
-| LGUI  | LALT      | LCTL  | LSFT       | COLN  |         | LSFT       | LCTL        | LALT      | LGUI     |
-| U_UND | U_CUT     | U_CPY | U_PST      | U_RDO |         | LOCK_CUR   | LOCK_OPP    | ALGR      | U_BUTTON |
-| U_NP  | U_NP      | U_FUN | U_NA       | U_NA  | U_MOUSE | U_NAV      | U_MEDIA     | U_NP      | U_NP     |
-
+| BOOT | DF(U_TAP) | U_SYM    | DF(U_BASE) |      |         | DF(U_BASE) | DF(U_EXTRA) | DF(U_TAP) | BOOT     |
+| LGUI | LALT      | LCTL     | LSFT       |      |         | LSFT       | LCTL        | LALT      | LGUI     |
+|      |           | LOCK_OPP | LOCK_CUR   |      |         | LOCK_CUR   | LOCK_OPP    | ALGR      | U_BUTTON |
+| U_NP | U_NP      | U_FUN    | U_NA       | U_NA | U_MOUSE | U_NAV      | U_MEDIA     | U_NP      | U_NP     |
 
 ****** Num
+
+******* Half-table
 
 #+NAME: num-r
 | [ |    7 | 8 |    9 | ]    |
@@ -371,6 +372,15 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 | \ |    4 | 5 |    6 | `    |
 | _ | MINS | DOT | U_NP | U_NP |
 
+******* Full-table
+
+#+NAME: num-r-full-table
+| BOOT  | DF(U_TAP) | U_NA  | DF(U_BASE) | SCLN  | [ | 7 | 8 | 9 | ] |
+| LGUI  | LALT      | LCTL  | LSFT       | COLN  | = | 1 | 2 | 3 | 0 |
+| U_UND | U_CUT     | U_CPY | U_PST      | U_RDO | \ | 4 | 5 | 6 | ` |
+
+#+NAME: num-r-full-table-thumbs
+| U_NP | U_NP | U_NA | U_NA | U_NA | _ | MINS | DOT | U_NP | U_NP |
 
 ****** Sym
 
@@ -1411,7 +1421,7 @@ prepended.
 
 
 #define MIRYOKU_ALTERNATIVES_NUM_FLIP \
-<<table-layer-half(current_layer_name="U_NUM", opposite_layer_name="U_NAV", half_table=num-r, mode="r", hold_table=hold-flip)>>
+<<table-layer-full(alphas_table=num-r-full-table, thumbs_table=num-r-full-table-thumbs)>>
 
 #define MIRYOKU_ALTERNATIVES_NUM \
 <<table-layer-half(current_layer_name="U_NUM", opposite_layer_name="U_NAV", half_table=num-l, mode="l")>>
@@ -1654,7 +1664,7 @@ prepended.
 
 
 #define MIRYOKU_ALTERNATIVES_NUM_FLIP \
-<<table-layer-half(current_layer_name="U_NUM", opposite_layer_name="U_NAV", half_table=num-r, mode="r", hold_table=hold-flip)>>
+<<table-layer-full(alphas_table=num-r-full-table, thumbs_table=num-r-full-table-thumbs)>>
 
 #define MIRYOKU_ALTERNATIVES_NUM \
 <<table-layer-half(current_layer_name="U_NUM", opposite_layer_name="U_NAV", half_table=num-l, mode="l")>>
@@ -1895,7 +1905,7 @@ prepended.
 
 
 #define MIRYOKU_ALTERNATIVES_NUM_FLIP \
-<<table-layer-half(current_layer_name="U_NUM", opposite_layer_name="U_NAV", half_table=num-r, mode="r", hold_table=hold-flip)>>
+<<table-layer-full(alphas_table=num-r-full-table, thumbs_table=num-r-full-table-thumbs)>>
 
 #define MIRYOKU_ALTERNATIVES_NUM \
 <<table-layer-half(current_layer_name="U_NUM", opposite_layer_name="U_NAV", half_table=num-l, mode="l")>>
