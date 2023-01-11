@@ -342,10 +342,10 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 
 #define MIRYOKU_ALTERNATIVES_NUM_FLIP \
-U_NU,              U_DF(U_TAP),       U_NA,              U_DF(U_BASE),      ;,                 [,                 7,                 8,                 9,                 ],                 \
+U_NU,              U_DF(U_TAP),       U_DF(U_EXTRA),     U_DF(U_BASE),      ;,                 [,                 7,                 8,                 9,                 ],                 \
 met,               alt,               ctl,               sft,               :,                 =,                 1,                 2,                 3,                 0,                 \
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             \\,                4,                 5,                 6,                 `,                 \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              \_,                -,                 .,                 U_NP,              U_NP
+U_NP,              U_NP,              *,                 U_NA,              *,                 \_,                -,                 .,                 U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NUM \
 [,                 7,                 8,                 9,                 ],                 U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_NA,              \

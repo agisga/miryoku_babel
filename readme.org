@@ -375,12 +375,12 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 ******* Full-table
 
 #+NAME: num-r-full-table
-| BOOT  | DF(U_TAP) | U_NA  | DF(U_BASE) | SCLN  | [ | 7 | 8 | 9 | ] |
-| LGUI  | LALT      | LCTL  | LSFT       | COLN  | = | 1 | 2 | 3 | 0 |
-| U_UND | U_CUT     | U_CPY | U_PST      | U_RDO | \ | 4 | 5 | 6 | ` |
+| BOOT  | DF(U_TAP) | DF(U_EXTRA) | DF(U_BASE) | SCLN  | [ | 7 | 8 | 9 | ] |
+| LGUI  | LALT      | LCTL        | LSFT       | COLN  | = | 1 | 2 | 3 | 0 |
+| U_UND | U_CUT     | U_CPY       | U_PST      | U_RDO | \ | 4 | 5 | 6 | ` |
 
 #+NAME: num-r-full-table-thumbs
-| U_NP | U_NP | U_NA | U_NA | U_NA | _ | MINS | DOT | U_NP | U_NP |
+| U_NP | U_NP | * | U_NA | * | _ | MINS | DOT | U_NP | U_NP |
 
 ****** Sym
 
