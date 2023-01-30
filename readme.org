@@ -388,7 +388,7 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 | {    | & | * | (    | }    |
 | +    | ! | @ | #    | )    |
 | PIPE | $ | % | ^    | ~    |
-| ;    | _ | U_NP | U_NP | U_NP |
+| :    | _ | U_NP | U_NP | U_NP |
 
 
 ****** Fun
