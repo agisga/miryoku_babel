@@ -131,7 +131,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 *** Button
 
 #+NAME: button
-| U_UND  | U_CUT  | U_CPY  | U_PST  | U_RDO | U_RDO | U_PST | U_CPY | U_CUT | U_UND |
+| Q      | QU     | QUE    |        |        | U_RDO | U_PST | U_CPY | U_CUT | U_UND |
 | ALGR_Q | ALGR_P | ALGR_S | ALGR_Y |       |       |       |       |       |       |
 | U_UND  | U_CUT  | U_CPY  | U_PST  | U_RDO | U_RDO | U_PST | U_CPY | U_CUT | U_UND |
 
@@ -206,9 +206,9 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 ~MIRYOKU_ALPHAS=COLEMAK~
 
 #+NAME: colemak
-| Q    | W    | F    | P    | G    | J    | L    | U    | Y    | '    |
-| A    | R    | S    | T    | D    | H    | N    | E    | I    | O    |
-| Z    | X    | C    | V    | B    | K    | M    | ,    | DOT  | /    |
+| TAB | W | F | P | G | J | L | U | Y   | BSPC |
+| A   | R | S | T | D | H | N | E | I   | O    |
+| Z   | X | C | V | B | K | M | , | DOT | /    |
 
 
 ***** Colemak Mod-DHk
@@ -351,16 +351,16 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 ****** Thumbs
 
 #+NAME: thumbs-flip
-| U_NP | U_NP | DEL | OSL_U_NUM | OSM_LSFT | SPC | SPC | ESC | U_NP | U_NP |
+| U_NP | U_NP | DEL | ' | OSM_LSFT | SPC | SPC | ESC | U_NP | U_NP |
 
 
 ****** Hold
 
 #+NAME: hold-flip
-| BOOT | DF(U_TAP) | U_SYM    | DF(U_BASE) |      |         | DF(U_BASE) | DF(U_EXTRA) | DF(U_TAP) | BOOT     |
-| LGUI | LALT      | LCTL     | LSFT       |      |         | LSFT       | LCTL        | LALT      | LGUI     |
-| ALGR |           | LOCK_OPP | U_SYM      |      |         | LOCK_CUR   | LOCK_OPP    |           | U_BUTTON |
-| U_NP | U_NP      | U_FUN    | U_NA       | U_NA | U_MOUSE | U_NAV      | U_MEDIA     | U_NP      | U_NP     |
+| BOOT     | DF(U_TAP) | U_SYM    | DF(U_BASE) |      |         | DF(U_BASE) | DF(U_EXTRA) | DF(U_TAP) | BOOT     |
+| LGUI     | LALT      | LCTL     | LSFT       |      |         | LSFT       | LCTL        | LALT      | LGUI     |
+| U_BUTTON | ALGR      | LOCK_OPP | LOCK_CUR   |      |         | LOCK_CUR   | LOCK_OPP    |           | U_BUTTON |
+| U_NP     | U_NP      | U_FUN    | U_NUM      | U_NA | U_MOUSE | U_NAV      | U_MEDIA     | U_NP      | U_NP     |
 
 ****** Num
 
@@ -375,20 +375,20 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 ******* Full-table
 
 #+NAME: num-r-full-table
-| BOOT  | DF(U_TAP) | DF(U_EXTRA) | DF(U_BASE) | SCLN  | [ | 7 | 8 | 9 | ] |
-| LGUI  | LALT      | LCTL        | LSFT       | COLN  | = | 1 | 2 | 3 | 0 |
-| U_UND | U_CUT     | U_CPY       | U_PST      | U_RDO | \ | 4 | 5 | 6 | ` |
+| BOOT | DF(U_TAP) | DF(U_EXTRA) | DF(U_BASE) | SCLN | [ | 7 | 8 | 9 | ] |
+| LGUI | LALT      | LCTL        | LSFT       | COLN | = | 1 | 2 | 3 | 0 |
+|      | ALGR      | DF(U_NAV)   | DF(U_NUM)  |      | \ | 4 | 5 | 6 | ` |
 
 #+NAME: num-r-full-table-thumbs
-| U_NP | U_NP | * | U_NA | * | _ | MINS | DOT | U_NP | U_NP |
+| U_NP | U_NP | # | U_NA | * | _ | MINS | DOT | U_NP | U_NP |
 
 ****** Sym
 
 #+NAME: sym-r
-| {    | & | * | (    | }    |
-| +    | ! | @ | #    | )    |
-| PIPE | $ | % | ^    | ~    |
-| :    | _ | U_NP | U_NP | U_NP |
+| {    | & | *    | (    | }    |
+| +    | ! | @    | #    | )    |
+| PIPE | $ | %    | ^    | ~    |
+| :    | ; | U_NP | U_NP | U_NP |
 
 
 ****** Fun
@@ -616,6 +616,8 @@ Source keycode to implementation equivalent (source, QMK, ZMK, KMonad).
 | DF(U_BASE)  | TD(U_TD_U_BASE)  | &u_to_U_BASE  | U_DF(U_BASE)  |
 | DF(U_EXTRA) | TD(U_TD_U_EXTRA) | &u_to_U_EXTRA | U_DF(U_EXTRA) |
 | DF(U_TAP)   | TD(U_TD_U_TAP)   | &u_to_U_TAP   | U_DF(U_TAP)   |
+| DF(U_NAV)   | TD(U_TD_U_NAV)   | &u_to_U_NAV   | U_DF(U_NAV)   |
+| DF(U_NUM)   | TD(U_TD_U_NUM)   | &u_to_U_NUM   | U_DF(U_NUM)   |
 | DLR         | DLR              | DLLR          | $             |
 | DOT         | DOT              | DOT           | .             |
 | DOWN        | DOWN             | DOWN          | down          |
