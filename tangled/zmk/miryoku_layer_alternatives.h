@@ -19,9 +19,9 @@ U_LT(U_BUTTON, J), U_MT(RALT, SLASH), &kp COMMA,         &kp K,             &kp 
 U_NP,              U_NP,              U_LT(U_FUN, DEL),  &sl U_NUM,         &skq LSHFT,        U_LT(U_MOUSE, SPC),U_LT(U_NAV, SPC),  U_LT(U_MEDIA, ESC),U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAK_FLIP \
-&kp TAB,           &kp W,             U_LT(U_SYM, F),    &kp P,             &kp G,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp BSPC,          \
+&kp Q,             &kp W,             U_LT(U_SYM, F),    &kp P,             &kp G,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
 U_MT(LGUI, A),     U_MT(LALT, R),     U_MT(LCTRL, S),    U_MT(LSHFT, T),    &kp D,             &kp H,             U_MT(LSHFT, N),    U_MT(LCTRL, E),    U_MT(LALT, I),     U_MT(LGUI, O),     \
-U_LT(U_BUTTON, SQT),U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             &kp K,             &kp M,             &kp COMMA,         &kp DOT,           U_LT(U_BUTTON, SLASH),\
+U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             &kp K,             &kp M,             &kp BSPC,          &kp DOT,           U_LT(U_BUTTON, COMMA),\
 U_NP,              U_NP,              U_LT(U_FUN, DEL),  &sl U_NUM,         &skq LSHFT,        U_LT(U_MOUSE, SPC),U_LT(U_NAV, SPC),  U_LT(U_MEDIA, ESC),U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAKDH_FLIP \
@@ -79,9 +79,9 @@ U_LT(U_BUTTON, J), U_MT(RALT, SLASH), &kp COMMA,         &kp K,             &kp 
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPC),  U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAK \
-&kp TAB,           &kp W,             &kp F,             &kp P,             &kp G,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp BSPC,          \
+&kp Q,             &kp W,             &kp F,             &kp P,             &kp G,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
 U_MT(LGUI, A),     U_MT(LALT, R),     U_MT(LCTRL, S),    U_MT(LSHFT, T),    &kp D,             &kp H,             U_MT(LSHFT, N),    U_MT(LCTRL, E),    U_MT(LALT, I),     U_MT(LGUI, O),     \
-U_LT(U_BUTTON, SQT),U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             &kp K,             &kp M,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
+U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             &kp K,             &kp M,             &kp BSPC,          U_MT(RALT, DOT),   U_LT(U_BUTTON, COMMA),\
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPC),  U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAKDH \
@@ -140,9 +140,9 @@ U_NP,              U_NP,              &kp DEL,           &sl U_NUM,         &skq
 U_NP,              U_NP,              &kp DEL,           &sl U_NUM,         &skq LSHFT,        &kp SPC,           &kp SPC,           &kp ESC,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAK_FLIP \
-&kp TAB,           &kp W,             &kp F,             &kp P,             &kp G,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp BSPC,          \
+&kp Q,             &kp W,             &kp F,             &kp P,             &kp G,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
 &kp A,             &kp R,             &kp S,             &kp T,             &kp D,             &kp H,             &kp N,             &kp E,             &kp I,             &kp O,             \
-&kp SQT,           &kp X,             &kp C,             &kp V,             &kp B,             &kp K,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
+&kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp K,             &kp M,             &kp BSPC,          &kp DOT,           &kp COMMA,         \
 U_NP,              U_NP,              &kp DEL,           &sl U_NUM,         &skq LSHFT,        &kp SPC,           &kp SPC,           &kp ESC,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAKDH_FLIP \
@@ -200,9 +200,9 @@ U_NP,              U_NP,              &kp ESC,           &kp SPC,           &kp 
 U_NP,              U_NP,              &kp ESC,           &kp SPC,           &kp TAB,           &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAK \
-&kp TAB,           &kp W,             &kp F,             &kp P,             &kp G,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp BSPC,          \
+&kp Q,             &kp W,             &kp F,             &kp P,             &kp G,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
 &kp A,             &kp R,             &kp S,             &kp T,             &kp D,             &kp H,             &kp N,             &kp E,             &kp I,             &kp O,             \
-&kp SQT,           &kp X,             &kp C,             &kp V,             &kp B,             &kp K,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
+&kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp K,             &kp M,             &kp BSPC,          &kp DOT,           &kp COMMA,         \
 U_NP,              U_NP,              &kp ESC,           &kp SPC,           &kp TAB,           &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAKDH \
@@ -342,10 +342,10 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 
 #define MIRYOKU_ALTERNATIVES_NUM_FLIP \
-&kp Q,             &kp Z,             &kp QU,            &u_to_U_BASE,      &kp COLON,         &kp LBKT,          &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp RBKT,          \
+&kp QMARK,         &kp SLASH,         &kp TAB,           &kp TD(U_TD_U_BASE),&kp COLON,         &kp LBKT,          &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp RBKT,          \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         &kp SEMI,          &kp EQL,           &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp NUM_0,         \
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             &kp BSLH,          &kp NUM_4,         &kp NUM_5,         &kp NUM_6,         &kp GRAVE,         \
-U_NP,              U_NP,              &kp HASH,          U_NA,              &kp ASTRK,         &kp UNDER,         &kp MINUS,         &kp DOT,           U_NP,              U_NP
+U_NP,              U_NP,              &kp ASTRK,         U_NA,              &kp ASTRK,         &kp UNDER,         &kp MINUS,         &kp DOT,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NUM \
 &kp LBKT,          &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp RBKT,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
@@ -381,7 +381,7 @@ U_NP,              U_NP,              &kp K_APP,         &kp SPC,           &kp 
 
 
 #define MIRYOKU_ALTERNATIVES_BUTTON \
-&kp COLONQ,        &kp COLONWQ,       U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp LATEX_PAREN,   &kp LATEX_SQBRA,   &kp LATEX_CURLYBRA,\
-&kp RA(Q),         &kp RA(P),         &kp RA(S),         &kp RA(Y),         U_NU,              U_NU,              &kp AUTOCLOS_QUOTE,&kp AUTOCLOS_PAREN,&kp AUTOCLOS_SQBRA,&kp AUTOCLOS_CURLYBRA,\
-U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_NU,              U_NU,              U_NU,              &kp ELLIPSIS,      &kp PARENQ,        \
+&kp COLONQ,        &kp COLONWQ,       &kp COLONQEX,      U_NU,              U_NU,              U_NU,              U_NU,              &kp LATEX_PAREN,   &kp LATEX_SQBRA,   &kp LATEX_CURLYBRA,\
+&kp RA(Q),         &kp RA(P),         &kp RA(S),         &kp RA(Y),         U_NU,              &kp AUTOCLOS_ANGLEBRA,&kp AUTOCLOS_QUOTE,&kp AUTOCLOS_PAREN,&kp AUTOCLOS_SQBRA,&kp AUTOCLOS_CURLYBRA,\
+U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             &kp LEQ,           &kp LEFTARR,       &kp ELLIPSIS,      &kp RIGHTARR,      &kp GEQ,           \
 U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NP,              U_NP

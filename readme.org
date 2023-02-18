@@ -131,9 +131,9 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 *** Button
 
 #+NAME: button
-| COLONQ | COLONWQ |        |        |       |   |                | LATEX_PAREN    | LATEX_SQBRA    | LATEX_CURLYBRA    |
-| ALGR_Q | ALGR_P  | ALGR_S | ALGR_Y |       |   | AUTOCLOS_QUOTE | AUTOCLOS_PAREN | AUTOCLOS_SQBRA | AUTOCLOS_CURLYBRA |
-| U_UND  | U_CUT   | U_CPY  | U_PST  | U_RDO |   |                |                | ELLIPSIS       | PARENQ            |
+| COLONQ | COLONWQ | COLONQEX |        |       |                   |                | LATEX_PAREN    | LATEX_SQBRA    | LATEX_CURLYBRA    |
+| ALGR_Q | ALGR_P  | ALGR_S   | ALGR_Y |       | AUTOCLOS_ANGLEBRA | AUTOCLOS_QUOTE | AUTOCLOS_PAREN | AUTOCLOS_SQBRA | AUTOCLOS_CURLYBRA |
+| U_UND  | U_CUT   | U_CPY    | U_PST  | U_RDO | LEQ               | LEFTARR        | ELLIPSIS       | RIGHTARR       | GEQ               |
 
 #+NAME: button-thumbs
 | U_NP | U_NP | REC_STOP | REC_PLAY2 | REC_START2 | REC_START1 | REC_PLAY1 | REC_STOP | U_NP | U_NP |
@@ -206,10 +206,9 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 ~MIRYOKU_ALPHAS=COLEMAK~
 
 #+NAME: colemak
-| TAB | W | F | P | G | J | L | U | Y   | BSPC |
-| A   | R | S | T | D | H | N | E | I   | O    |
-| '   | X | C | V | B | K | M | , | DOT | /    |
-
+| Q | W | F | P | G | J | L | U    | Y   | ' |
+| A | R | S | T | D | H | N | E    | I   | O |
+| Z | X | C | V | B | K | M | BSPC | DOT | , |
 
 ***** Colemak Mod-DHk
 
@@ -375,12 +374,12 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 ******* Full-table
 
 #+NAME: num-r-full-table
-| Q     | Z     | QU    | DF(U_BASE) | :     | [ | 7 | 8 | 9 | ] |
-| LGUI  | LALT  | LCTL  | LSFT       | ;     | = | 1 | 2 | 3 | 0 |
-| U_UND | U_CUT | U_CPY | U_PST      | U_RDO | \ | 4 | 5 | 6 | ` |
+| ?     | /     | TAB   | TD(U_TD_U_BASE) | :     | [ | 7 | 8 | 9 | ] |
+| LGUI  | LALT  | LCTL  | LSFT            | ;     | = | 1 | 2 | 3 | 0 |
+| U_UND | U_CUT | U_CPY | U_PST           | U_RDO | \ | 4 | 5 | 6 | ` |
 
 #+NAME: num-r-full-table-thumbs
-| U_NP | U_NP | # | U_NA | * | _ | MINS | DOT | U_NP | U_NP |
+| U_NP | U_NP | * | U_NA | * | _ | MINS | DOT | U_NP | U_NP |
 
 ****** Sym
 
