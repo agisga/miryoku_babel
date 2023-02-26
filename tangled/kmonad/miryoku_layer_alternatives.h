@@ -381,7 +381,7 @@ U_NP,              U_NP,              comp,              spc,               tab,
 
 
 #define MIRYOKU_ALTERNATIVES_BUTTON \
-COLONQ,            COLONWQ,           COLONQEX,          U_NU,              U_NU,              U_NU,              U_NU,              LATEX_PAREN,       LATEX_SQBRA,       LATEX_CURLYBRA,    \
+COLONQ,            COLONWQ,           COLONQEX,          U_NU,              U_NU,              U_NU,              &,                 *,                 U_LPRN,            U_RPRN,            \
 U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              AUTOCLOS_ANGLEBRA, AUTOCLOS_QUOTE,    AUTOCLOS_PAREN,    AUTOCLOS_SQBRA,    AUTOCLOS_CURLYBRA, \
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             LEQ,               LEFTARR,           ELLIPSIS,          RIGHTARR,          GEQ,               \
 U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NP,              U_NP

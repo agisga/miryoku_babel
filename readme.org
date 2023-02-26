@@ -131,7 +131,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 *** Button
 
 #+NAME: button
-| COLONQ | COLONWQ | COLONQEX |        |       |                   |                | LATEX_PAREN    | LATEX_SQBRA    | LATEX_CURLYBRA    |
+| COLONQ | COLONWQ | COLONQEX |        |       |                   | &              | *              | (              | )                 |
 | ALGR_Q | ALGR_P  | ALGR_S   | ALGR_Y |       | AUTOCLOS_ANGLEBRA | AUTOCLOS_QUOTE | AUTOCLOS_PAREN | AUTOCLOS_SQBRA | AUTOCLOS_CURLYBRA |
 | U_UND  | U_CUT   | U_CPY    | U_PST  | U_RDO | LEQ               | LEFTARR        | ELLIPSIS       | RIGHTARR       | GEQ               |
 
