@@ -133,7 +133,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 #+NAME: button
 | COLONQ | COLONWQ | COLONQEX |        |       |                   |                |                | (              | )                 |
 | ALGR_Q | ALGR_P  | ALGR_S   | ALGR_Y |       | AUTOCLOS_ANGLEBRA | AUTOCLOS_QUOTE | AUTOCLOS_PAREN | AUTOCLOS_SQBRA | AUTOCLOS_CURLYBRA |
-| U_UND  | U_CUT   | U_CPY    | U_PST  | U_RDO | LEQ               | LEFTARR        | ELLIPSIS       | RIGHTARR       | GEQ               |
+| U_UND  | U_CUT   | U_CPY    | U_PST  | U_RDO | <                 | LEFTARR        | ELLIPSIS       | RIGHTARR       | >                 |
 
 #+NAME: button-thumbs
 | U_NP | U_NP | REC_STOP | REC_PLAY2 | REC_START2 | REC_START1 | REC_PLAY1 | REC_STOP | U_NP | U_NP |
@@ -707,7 +707,7 @@ Source keycode to implementation equivalent (source, QMK, ZMK, KMonad).
 | REC_PLAY2    | DYN_MACRO_PLAY2  |               |               |
 | OSL_U_NUM    | OSL(U_NUM)       | &sl U_NUM     |               |
 | OSM_LSFT     | OSM(MOD_LSFT)    | &skq LSHFT    |               |
-| OSM_LSFT_ENT | TD(OSM_LSFT_ENT) | &skq LSHFT    |               |
+| OSM_LSFT_ENT | TD(OSM_LSFT_ENT) | &td_skq LSHFT |               |
 | ALGR_Q       | RALT(KC_Q)       | RA(Q)         |               |
 | ALGR_P       | RALT(KC_P)       | RA(P)         |               |
 | ALGR_S       | RALT(KC_S)       | RA(S)         |               |
