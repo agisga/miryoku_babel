@@ -716,6 +716,7 @@ Source keycode to implementation equivalent (source, QMK, ZMK, KMonad).
 | CG_LEFT       | C(G(KC_LEFT))     | LC(LG(LEFT))  |               |
 | CG_RIGHT      | C(G(KC_RIGHT))    | LC(LG(RIGHT)) |               |
 | APP_SWITCHER  | AT_SPECIAL        | LA(TAB)       |               |
+| REPEAT        | REPEAT            | &key_repeat   |               |
 
 **** table-layer-init
 

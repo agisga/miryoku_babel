@@ -10,61 +10,61 @@
 a,                 z,                 U_LT(e, U_SYM),    r,                 t,                 y,                 u,                 i,                 o,                 p,                 \
 U_MT(q, met),      U_MT(s, alt),      U_MT(d, ctl),      U_MT(f, sft),      g,                 h,                 U_MT(j, sft),      U_MT(k, ctl),      U_MT(l, alt),      U_MT(m, met),      \
 U_LT(w, U_BUTTON), U_LT(x, U_FUN),    c,                 v,                 b,                 n,                 U_COMM,            .,                 U_LT(/, U_MEDIA),  U_LT(U_QUOT, U_BUTTON),\
-U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  REPEAT,            U_NP,              U_NP
+U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_BEAKL15_FLIP \
 q,                 h,                 U_LT(o, U_SYM),    u,                 x,                 g,                 c,                 r,                 f,                 z,                 \
 U_MT(y, met),      U_MT(i, alt),      U_MT(e, ctl),      U_MT(a, sft),      .,                 d,                 U_MT(s, sft),      U_MT(t, ctl),      U_MT(n, alt),      U_MT(b, met),      \
 U_LT(j, U_BUTTON), U_LT(/, U_FUN),    U_COMM,            k,                 U_QUOT,            w,                 m,                 l,                 U_LT(p, U_MEDIA),  U_LT(v, U_BUTTON), \
-U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  REPEAT,            U_NP,              U_NP
+U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAK_FLIP \
 q,                 w,                 U_LT(f, U_SYM),    p,                 g,                 j,                 l,                 u,                 y,                 U_QUOT,            \
 U_MT(a, met),      U_MT(r, alt),      U_MT(s, ctl),      U_MT(t, sft),      d,                 h,                 U_MT(n, sft),      U_MT(e, ctl),      U_MT(i, alt),      U_MT(o, met),      \
 U_LT(z, U_BUTTON), U_LT(x, U_FUN),    c,                 v,                 b,                 k,                 m,                 bspc,              U_LT(., U_MEDIA),  U_LT(U_COMM, U_BUTTON),\
-U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  REPEAT,            U_NP,              U_NP
+U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAKDH_FLIP \
 q,                 w,                 U_LT(f, U_SYM),    p,                 b,                 j,                 l,                 u,                 y,                 U_QUOT,            \
 U_MT(a, met),      U_MT(r, alt),      U_MT(s, ctl),      U_MT(t, sft),      g,                 m,                 U_MT(n, sft),      U_MT(e, ctl),      U_MT(i, alt),      U_MT(o, met),      \
 U_LT(z, U_BUTTON), U_LT(x, U_FUN),    c,                 d,                 v,                 k,                 h,                 U_COMM,            U_LT(., U_MEDIA),  U_LT(/, U_BUTTON), \
-U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  REPEAT,            U_NP,              U_NP
+U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAKDHK_FLIP \
 q,                 w,                 U_LT(f, U_SYM),    p,                 b,                 j,                 l,                 u,                 y,                 U_QUOT,            \
 U_MT(a, met),      U_MT(r, alt),      U_MT(s, ctl),      U_MT(t, sft),      g,                 k,                 U_MT(n, sft),      U_MT(e, ctl),      U_MT(i, alt),      U_MT(o, met),      \
 U_LT(z, U_BUTTON), U_LT(x, U_FUN),    c,                 d,                 v,                 m,                 h,                 U_COMM,            U_LT(., U_MEDIA),  U_LT(/, U_BUTTON), \
-U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  REPEAT,            U_NP,              U_NP
+U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_DVORAK_FLIP \
 U_QUOT,            U_COMM,            U_LT(., U_SYM),    p,                 y,                 f,                 g,                 c,                 r,                 l,                 \
 U_MT(a, met),      U_MT(o, alt),      U_MT(e, ctl),      U_MT(u, sft),      i,                 d,                 U_MT(h, sft),      U_MT(t, ctl),      U_MT(n, alt),      U_MT(s, met),      \
 U_LT(/, U_BUTTON), U_LT(q, U_FUN),    j,                 k,                 x,                 b,                 m,                 w,                 U_LT(v, U_MEDIA),  U_LT(z, U_BUTTON), \
-U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  REPEAT,            U_NP,              U_NP
+U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_HALMAK_FLIP \
 w,                 l,                 U_LT(r, U_SYM),    b,                 z,                 U_QUOT,            q,                 u,                 d,                 j,                 \
 U_MT(s, met),      U_MT(h, alt),      U_MT(n, ctl),      U_MT(t, sft),      U_COMM,            .,                 U_MT(a, sft),      U_MT(e, ctl),      U_MT(o, alt),      U_MT(i, met),      \
 U_LT(f, U_BUTTON), U_LT(m, U_FUN),    v,                 c,                 /,                 g,                 p,                 x,                 U_LT(k, U_MEDIA),  U_LT(y, U_BUTTON), \
-U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  REPEAT,            U_NP,              U_NP
+U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_WORKMAN_FLIP \
 q,                 d,                 U_LT(r, U_SYM),    w,                 b,                 j,                 f,                 u,                 p,                 U_QUOT,            \
 U_MT(a, met),      U_MT(s, alt),      U_MT(h, ctl),      U_MT(t, sft),      g,                 y,                 U_MT(n, sft),      U_MT(e, ctl),      U_MT(o, alt),      U_MT(i, met),      \
 U_LT(z, U_BUTTON), U_LT(x, U_FUN),    m,                 c,                 v,                 k,                 l,                 U_COMM,            U_LT(., U_MEDIA),  U_LT(/, U_BUTTON), \
-U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  REPEAT,            U_NP,              U_NP
+U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_QWERTY_FLIP \
 q,                 w,                 U_LT(e, U_SYM),    r,                 t,                 y,                 u,                 i,                 o,                 p,                 \
 U_MT(a, met),      U_MT(s, alt),      U_MT(d, ctl),      U_MT(f, sft),      g,                 h,                 U_MT(j, sft),      U_MT(k, ctl),      U_MT(l, alt),      U_MT(U_QUOT, met), \
 U_LT(z, U_BUTTON), U_LT(x, U_FUN),    c,                 v,                 b,                 n,                 m,                 U_COMM,            U_LT(., U_MEDIA),  U_LT(/, U_BUTTON), \
-U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  REPEAT,            U_NP,              U_NP
+U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_QWERTZ_FLIP \
 q,                 w,                 U_LT(e, U_SYM),    r,                 t,                 z,                 u,                 i,                 o,                 p,                 \
 U_MT(a, met),      U_MT(s, alt),      U_MT(d, ctl),      U_MT(f, sft),      g,                 h,                 U_MT(j, sft),      U_MT(k, ctl),      U_MT(l, alt),      U_MT(U_QUOT, met), \
 U_LT(y, U_BUTTON), U_LT(x, U_FUN),    c,                 v,                 b,                 n,                 m,                 U_COMM,            U_LT(., U_MEDIA),  U_LT(/, U_BUTTON), \
-U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  REPEAT,            U_NP,              U_NP
+U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_AZERTY \
 a,                 z,                 e,                 r,                 t,                 y,                 u,                 i,                 o,                 p,                 \
@@ -131,61 +131,61 @@ U_NP,              U_NP,              U_LT(esc, U_MEDIA),U_LT(spc, U_NAV),  U_LT
 a,                 z,                 e,                 r,                 t,                 y,                 u,                 i,                 o,                 p,                 \
 q,                 s,                 d,                 f,                 g,                 h,                 j,                 k,                 l,                 m,                 \
 w,                 x,                 c,                 v,                 b,                 n,                 U_COMM,            .,                 /,                 U_QUOT,            \
-U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              spc,               spc,               REPEAT,            U_NP,              U_NP
+U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              spc,               spc,               U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_BEAKL15_FLIP \
 q,                 h,                 o,                 u,                 x,                 g,                 c,                 r,                 f,                 z,                 \
 y,                 i,                 e,                 a,                 .,                 d,                 s,                 t,                 n,                 b,                 \
 j,                 /,                 U_COMM,            k,                 U_QUOT,            w,                 m,                 l,                 p,                 v,                 \
-U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              spc,               spc,               REPEAT,            U_NP,              U_NP
+U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              spc,               spc,               U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAK_FLIP \
 q,                 w,                 f,                 p,                 g,                 j,                 l,                 u,                 y,                 U_QUOT,            \
 a,                 r,                 s,                 t,                 d,                 h,                 n,                 e,                 i,                 o,                 \
 z,                 x,                 c,                 v,                 b,                 k,                 m,                 bspc,              .,                 U_COMM,            \
-U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              spc,               spc,               REPEAT,            U_NP,              U_NP
+U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              spc,               spc,               U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAKDH_FLIP \
 q,                 w,                 f,                 p,                 b,                 j,                 l,                 u,                 y,                 U_QUOT,            \
 a,                 r,                 s,                 t,                 g,                 m,                 n,                 e,                 i,                 o,                 \
 z,                 x,                 c,                 d,                 v,                 k,                 h,                 U_COMM,            .,                 /,                 \
-U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              spc,               spc,               REPEAT,            U_NP,              U_NP
+U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              spc,               spc,               U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAKDHK_FLIP \
 q,                 w,                 f,                 p,                 b,                 j,                 l,                 u,                 y,                 U_QUOT,            \
 a,                 r,                 s,                 t,                 g,                 k,                 n,                 e,                 i,                 o,                 \
 z,                 x,                 c,                 d,                 v,                 m,                 h,                 U_COMM,            .,                 /,                 \
-U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              spc,               spc,               REPEAT,            U_NP,              U_NP
+U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              spc,               spc,               U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_DVORAK_FLIP \
 U_QUOT,            U_COMM,            .,                 p,                 y,                 f,                 g,                 c,                 r,                 l,                 \
 a,                 o,                 e,                 u,                 i,                 d,                 h,                 t,                 n,                 s,                 \
 /,                 q,                 j,                 k,                 x,                 b,                 m,                 w,                 v,                 z,                 \
-U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              spc,               spc,               REPEAT,            U_NP,              U_NP
+U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              spc,               spc,               U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_HALMAK_FLIP \
 w,                 l,                 r,                 b,                 z,                 U_QUOT,            q,                 u,                 d,                 j,                 \
 s,                 h,                 n,                 t,                 U_COMM,            .,                 a,                 e,                 o,                 i,                 \
 f,                 m,                 v,                 c,                 /,                 g,                 p,                 x,                 k,                 y,                 \
-U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              spc,               spc,               REPEAT,            U_NP,              U_NP
+U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              spc,               spc,               U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_WORKMAN_FLIP \
 q,                 d,                 r,                 w,                 b,                 j,                 f,                 u,                 p,                 U_QUOT,            \
 a,                 s,                 h,                 t,                 g,                 y,                 n,                 e,                 o,                 i,                 \
 z,                 x,                 m,                 c,                 v,                 k,                 l,                 U_COMM,            .,                 /,                 \
-U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              spc,               spc,               REPEAT,            U_NP,              U_NP
+U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              spc,               spc,               U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_QWERTY_FLIP \
 q,                 w,                 e,                 r,                 t,                 y,                 u,                 i,                 o,                 p,                 \
 a,                 s,                 d,                 f,                 g,                 h,                 j,                 k,                 l,                 U_QUOT,            \
 z,                 x,                 c,                 v,                 b,                 n,                 m,                 U_COMM,            .,                 /,                 \
-U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              spc,               spc,               REPEAT,            U_NP,              U_NP
+U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              spc,               spc,               U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_QWERTZ_FLIP \
 q,                 w,                 e,                 r,                 t,                 z,                 u,                 i,                 o,                 p,                 \
 a,                 s,                 d,                 f,                 g,                 h,                 j,                 k,                 l,                 U_QUOT,            \
 y,                 x,                 c,                 v,                 b,                 n,                 m,                 U_COMM,            .,                 /,                 \
-U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              spc,               spc,               REPEAT,            U_NP,              U_NP
+U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              spc,               spc,               U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_AZERTY \
 a,                 z,                 e,                 r,                 t,                 y,                 u,                 i,                 o,                 p,                 \
