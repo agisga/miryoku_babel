@@ -131,9 +131,9 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 *** Button
 
 #+NAME: button
-| COLONQ | COLONWQ | COLONQEX |        |       |                   |                |                | (              | )                 |
-| ALGR_Q | ALGR_P  | ALGR_S   | ALGR_Y |       | AUTOCLOS_ANGLEBRA | AUTOCLOS_QUOTE | AUTOCLOS_PAREN | AUTOCLOS_SQBRA | AUTOCLOS_CURLYBRA |
-| U_UND  | U_CUT   | U_CPY    | U_PST  | U_RDO | <                 | LEFTARR        | ELLIPSIS       | RIGHTARR       | >                 |
+| COLONQ | COLONW | COLONWQ | COLONQEX | :     |                   |                | FIFTEENSTARS   | (              | )                 |
+| ALGR_Q | ALGR_P | ALGR_S  | ALGR_Y   | ;     | AUTOCLOS_ANGLEBRA | AUTOCLOS_QUOTE | AUTOCLOS_PAREN | AUTOCLOS_SQBRA | AUTOCLOS_CURLYBRA |
+| U_UND  | U_CUT  | U_CPY   | U_PST    | U_RDO | <                 | LEFTARR        | ELLIPSIS       | RIGHTARR       | >                 |
 
 #+NAME: button-thumbs
 | U_NP | U_NP | REC_STOP | REC_PLAY2 | REC_START2 | REC_START1 | REC_PLAY1 | REC_STOP | U_NP | U_NP |

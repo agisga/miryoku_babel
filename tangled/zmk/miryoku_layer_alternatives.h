@@ -381,7 +381,7 @@ U_NP,              U_NP,              &kp K_APP,         &kp SPC,           &kp 
 
 
 #define MIRYOKU_ALTERNATIVES_BUTTON \
-&kp COLONQ,        &kp COLONWQ,       &kp COLONQEX,      U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              &kp LPAR,          &kp RPAR,          \
-&kp RA(Q),         &kp RA(P),         &kp RA(S),         &kp RA(Y),         U_NU,              &kp AUTOCLOS_ANGLEBRA,&kp AUTOCLOS_QUOTE,&kp AUTOCLOS_PAREN,&kp AUTOCLOS_SQBRA,&kp AUTOCLOS_CURLYBRA,\
+&kp COLONQ,        &kp COLONW,        &kp COLONWQ,       &kp COLONQEX,      &kp COLON,         U_NU,              U_NU,              &kp FIFTEENSTARS,  &kp LPAR,          &kp RPAR,          \
+&kp RA(Q),         &kp RA(P),         &kp RA(S),         &kp RA(Y),         &kp SEMI,          &kp AUTOCLOS_ANGLEBRA,&kp AUTOCLOS_QUOTE,&kp AUTOCLOS_PAREN,&kp AUTOCLOS_SQBRA,&kp AUTOCLOS_CURLYBRA,\
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             &kp LT,            &kp LEFTARR,       &kp ELLIPSIS,      &kp RIGHTARR,      &kp GT,            \
 U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NP,              U_NP
