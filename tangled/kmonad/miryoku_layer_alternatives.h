@@ -342,8 +342,8 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 
 #define MIRYOKU_ALTERNATIVES_NUM_FLIP \
-U_NU,              U_NU,              tab,               del,               MUTE E,            [,                 7,                 8,                 9,                 ],                 \
-met,               alt,               ctl,               U_NU,              /,                 =,                 4,                 5,                 6,                 ;,                 \
+U_NU,              U_NU,              tab,               del,               mute,              [,                 7,                 8,                 9,                 ],                 \
+met,               alt,               ctl,               U_NU,              ?,                 =,                 4,                 5,                 6,                 ;,                 \
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             \\,                1,                 2,                 3,                 `,                 \
 U_NP,              U_NP,              U_DF(U_BASE),      U_NA,              *,                 -,                 0,                 .,                 U_NP,              U_NP
 
