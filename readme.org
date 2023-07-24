@@ -374,9 +374,9 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 ******* Full-table
 
 #+NAME: num-r-full-table
-| CG_LEFT | CG_RIGHT | TAB   | DEL       | MUTE E | [ | 7 | 8 | 9 | ] |
-| LGUI    | LALT     | LCTL  | LSFT_QUES | /      | = | 4 | 5 | 6 | ; |
-| U_UND   | U_CUT    | U_CPY | U_PST     | U_RDO  | \ | 1 | 2 | 3 | ` |
+| CG_LEFT | CG_RIGHT | TAB   | DEL       | MUTE  | [ | 7 | 8 | 9 | ] |
+| LGUI    | LALT     | LCTL  | LSFT_QUES | /     | = | 4 | 5 | 6 | ; |
+| U_UND   | U_CUT    | U_CPY | U_PST     | U_RDO | \ | 1 | 2 | 3 | ` |
 
 #+NAME: num-r-full-table-thumbs
 | U_NP | U_NP | DF(U_BASE) | U_NA | * | MINS | 0 | DOT | U_NP | U_NP |
