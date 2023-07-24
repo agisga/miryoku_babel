@@ -252,7 +252,7 @@ U_NP,              U_NP,              &kp ESC,           &kp SPC,           &kp 
 &kp PG_UP,         &kp HOME,          &kp UP,            &kp END,           &kp INS,           U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
 &kp PG_DN,         &kp LEFT,          &kp DOWN,          &kp RIGHT,         &u_caps_word,      U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 &kp BSPC,          U_CUT,             U_CPY,             U_PST,             &kp DEL,           U_NA,              &u_to_U_NAV,       &u_to_U_NUM,       U_NA,              U_NA,              \
-U_NP,              U_NP,              &kp DEL,           &kp K_APP,         &kp RET,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+U_NP,              U_NP,              &kp ESC,           &kp K_APP,         &kp RET,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NAV_FLIP \
 &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           &kp INS,           U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
@@ -342,10 +342,10 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 
 #define MIRYOKU_ALTERNATIVES_NUM_FLIP \
-&kp QMARK,         &kp SLASH,         &kp TAB,           &kp DEL,           &kp COLON,         &kp LBKT,          &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp RBKT,          \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         &kp SEMI,          &kp EQL,           &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp NUM_0,         \
-U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             &kp BSLH,          &kp NUM_4,         &kp NUM_5,         &kp NUM_6,         &kp GRAVE,         \
-U_NP,              U_NP,              &u_to_U_BASE,      U_NA,              &kp ASTRK,         &kp UNDER,         &kp MINUS,         &kp DOT,           U_NP,              U_NP
+&kp LC(LG(LEFT)),  &kp LC(LG(RIGHT)), &kp TAB,           &kp DEL,           &kp MUTE E,        &kp LBKT,          &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp RBKT,          \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &mt LSHIFT QMARK,  &kp SLASH,         &kp EQL,           &kp NUM_4,         &kp NUM_5,         &kp NUM_6,         &kp SEMI,          \
+U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             &kp BSLH,          &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp GRAVE,         \
+U_NP,              U_NP,              &u_to_U_BASE,      U_NA,              &kp ASTRK,         &kp MINUS,         &kp NUM_0,         &kp DOT,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NUM \
 &kp LBKT,          &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp RBKT,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
@@ -356,9 +356,9 @@ U_NP,              U_NP,              &kp DOT,           &kp NUM_0,         &kp 
 
 #define MIRYOKU_ALTERNATIVES_SYM_FLIP \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              &kp LBRC,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RBRC,          \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp PLUS,          &kp EXCL,          &kp AT,            &kp HASH,          &kp RPAR,          \
-U_NA,              U_NA,              &kp RALT,          U_NA,              U_NA,              &kp PIPE,          &kp DLLR,          &kp PRCT,          &kp CRRT,          &kp TILDE,         \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp COLON,         &kp SEMI,          U_NP,              U_NP,              U_NP
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp PLUS,          &kp DLLR,          &kp PRCT,          &kp CRRT,          &kp COLON,         \
+U_NA,              U_NA,              &kp RALT,          U_NA,              U_NA,              &kp PIPE,          &kp EXCL,          &kp AT,            &kp HASH,          &kp TILDE,         \
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp UNDER,         &kp RPAR,          U_NP,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM \
 &kp LBRC,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RBRC,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
@@ -369,8 +369,8 @@ U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp 
 
 #define MIRYOKU_ALTERNATIVES_FUN_FLIP \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              &kp PSCRN,         &kp F7,            &kp F8,            &kp F9,            &kp F12,           \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp SLCK,          &kp F1,            &kp F2,            &kp F3,            &kp F10,           \
-U_NA,              U_NA,              &kp RALT,          U_NA,              U_NA,              &kp PAUSE_BREAK,   &kp F4,            &kp F5,            &kp F6,            &kp F11,           \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp SLCK,          &kp F4,            &kp F5,            &kp F6,            &kp F11,           \
+U_NA,              U_NA,              &kp RALT,          U_NA,              U_NA,              &kp PAUSE_BREAK,   &kp F1,            &kp F2,            &kp F3,            &kp F10,           \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp TAB,           &kp SPC,           &kp ESC,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_FUN \
@@ -381,7 +381,7 @@ U_NP,              U_NP,              &kp K_APP,         &kp SPC,           &kp 
 
 
 #define MIRYOKU_ALTERNATIVES_BUTTON \
-&kp COLONQ,        &kp COLONW,        &kp COLONWQ,       &kp COLONQEX,      &kp COLON,         U_NU,              U_NU,              &kp FIFTEENSTARS,  &kp LPAR,          &kp RPAR,          \
-&kp RA(Q),         &kp RA(P),         &kp RA(S),         &kp RA(Y),         &kp SEMI,          &kp AUTOCLOS_ANGLEBRA,&kp AUTOCLOS_QUOTE,&kp AUTOCLOS_PAREN,&kp AUTOCLOS_SQBRA,&kp AUTOCLOS_CURLYBRA,\
-U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             &kp LT,            &kp LEFTARR,       &kp ELLIPSIS,      &kp RIGHTARR,      &kp GT,            \
+&kp COLONQ,        &kp COLONW,        &kp COLONWQ,       &kp COLONQEX,      &kp COLON,         U_NU,              U_NU,              &kp RA(Y),         &kp LPAR,          &kp RPAR,          \
+&kp RA(Q),         &kp AUTOCLOS_CURLYBRA,&kp RA(S),         &kp AUTOCLOS_SQBRA,&kp AUTOCLOS_ANGLEBRA,&kp TODO,          &kp AUTOCLOS_QUOTE,&kp AUTOCLOS_PAREN,&kp FIFTEENSTARS,  &kp RA(P),         \
+U_NU,              &kp C_VOL_DN,      &kp C_VOL_UP,      U_NU,              U_NU,              &kp LT,            &kp LEFTARR,       &kp ELLIPSIS,      &kp RIGHTARR,      &kp GT,            \
 U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NP,              U_NP
