@@ -133,7 +133,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 #+NAME: button
 | COLONQ | COLONW            | COLONWQ | COLONQEX       | :                 |      |                | ALGR_Y         | (            | )      |
 | ALGR_Q | AUTOCLOS_CURLYBRA | ALGR_S  | AUTOCLOS_SQBRA | AUTOCLOS_ANGLEBRA | TODO | AUTOCLOS_QUOTE | AUTOCLOS_PAREN | FIFTEENSTARS | ALGR_P |
-|        | VOLD              | VOLU    |                |                   | <    | LEFTARR        | ELLIPSIS       | RIGHTARR     | >      |
+|        | VOLD              | VOLU    | MUTE           | MUTE              | <    | LEFTARR        | ELLIPSIS       | RIGHTARR     | >      |
 
 #+NAME: button-thumbs
 | U_NP | U_NP | REC_STOP | REC_PLAY2 | REC_START2 | REC_START1 | REC_PLAY1 | REC_STOP | U_NP | U_NP |
@@ -374,7 +374,7 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 ******* Full-table
 
 #+NAME: num-r-full-table
-| CG_LEFT | CG_RIGHT | TAB   | DEL       | MUTE  | [ | 7 | 8 | 9 | ] |
+| CG_LEFT | CG_RIGHT | TAB   | DEL       | :     | [ | 7 | 8 | 9 | ] |
 | LGUI    | LALT     | LCTL  | LSFT_SLSH | ?     | = | 4 | 5 | 6 | ; |
 | U_UND   | U_CUT    | U_CPY | U_PST     | U_RDO | \ | 1 | 2 | 3 | ` |
 

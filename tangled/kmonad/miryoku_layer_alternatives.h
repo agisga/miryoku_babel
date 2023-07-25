@@ -342,7 +342,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 
 #define MIRYOKU_ALTERNATIVES_NUM_FLIP \
-U_NU,              U_NU,              tab,               del,               mute,              [,                 7,                 8,                 9,                 ],                 \
+U_NU,              U_NU,              tab,               del,               :,                 [,                 7,                 8,                 9,                 ],                 \
 met,               alt,               ctl,               U_NU,              ?,                 =,                 4,                 5,                 6,                 ;,                 \
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             \\,                1,                 2,                 3,                 `,                 \
 U_NP,              U_NP,              U_DF(U_BASE),      U_NA,              *,                 -,                 0,                 .,                 U_NP,              U_NP
@@ -383,5 +383,5 @@ U_NP,              U_NP,              comp,              spc,               tab,
 #define MIRYOKU_ALTERNATIVES_BUTTON \
 COLONQ,            COLONW,            COLONWQ,           COLONQEX,          :,                 U_NU,              U_NU,              U_NU,              U_LPRN,            U_RPRN,            \
 U_NU,              AUTOCLOS_CURLYBRA, U_NU,              AUTOCLOS_SQBRA,    AUTOCLOS_ANGLEBRA, TODO,              AUTOCLOS_QUOTE,    AUTOCLOS_PAREN,    FIFTEENSTARS,      U_NU,              \
-U_NU,              vold,              volu,              U_NU,              U_NU,              <,                 LEFTARR,           ELLIPSIS,          RIGHTARR,          >,                 \
+U_NU,              vold,              volu,              mute,              mute,              <,                 LEFTARR,           ELLIPSIS,          RIGHTARR,          >,                 \
 U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NP,              U_NP
