@@ -383,5 +383,5 @@ U_NP,              U_NP,              comp,              spc,               tab,
 #define MIRYOKU_ALTERNATIVES_BUTTON \
 COLONQ,            COLONW,            COLONWQ,           COLONQEX,          :,                 U_NU,              U_NU,              U_NU,              U_LPRN,            U_RPRN,            \
 U_NU,              AUTOCLOS_CURLYBRA, U_NU,              AUTOCLOS_SQBRA,    AUTOCLOS_ANGLEBRA, TODO,              AUTOCLOS_QUOTE,    AUTOCLOS_PAREN,    FIFTEENSTARS,      U_NU,              \
-U_NU,              vold,              volu,              mute,              mute,              <,                 LEFTARR,           ELLIPSIS,          RIGHTARR,          >,                 \
+U_NU,              U_NU,              vold,              volu,              mute,              <,                 LEFTARR,           ELLIPSIS,          RIGHTARR,          >,                 \
 U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NP,              U_NP
