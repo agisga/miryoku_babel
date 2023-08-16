@@ -342,10 +342,10 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 
 #define MIRYOKU_ALTERNATIVES_NUM_FLIP \
-U_NU,              U_NU,              tab,               del,               :,                 [,                 7,                 8,                 9,                 ],                 \
-met,               alt,               ctl,               U_NU,              ?,                 =,                 4,                 5,                 6,                 ;,                 \
+U_NU,              U_NU,              tab,               del,               U_NU,              [,                 7,                 8,                 9,                 ],                 \
+met,               alt,               ctl,               U_NU,              ?,                 =,                 4,                 5,                 6,                 -,                 \
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             \\,                1,                 2,                 3,                 `,                 \
-U_NP,              U_NP,              U_DF(U_BASE),      U_NA,              *,                 -,                 0,                 .,                 U_NP,              U_NP
+U_NP,              U_NP,              U_DF(U_BASE),      U_NA,              *,                 \_,                0,                 .,                 U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NUM \
 [,                 7,                 8,                 9,                 ],                 U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_NA,              \
@@ -356,9 +356,9 @@ U_NP,              U_NP,              .,                 0,                 -,  
 
 #define MIRYOKU_ALTERNATIVES_SYM_FLIP \
 U_NA,              U_DF(U_TAP),       U_DF(U_EXTRA),     U_DF(U_BASE),      U_NA,              {,                 &,                 *,                 U_LPRN,            },                 \
-met,               alt,               ctl,               sft,               U_NA,              +,                 $,                 %,                 ^,                 :,                 \
+met,               alt,               ctl,               sft,               U_NA,              +,                 $,                 %,                 ^,                 \_,                \
 U_NA,              U_NA,              ralt,              U_NA,              U_NA,              U_PIPE,            !,                 @,                 #,                 ~,                 \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              \_,                U_RPRN,            U_NP,              U_NP,              U_NP
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              -,                 U_RPRN,            U_NP,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM \
 {,                 &,                 *,                 U_LPRN,            },                 U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_NA,              \
