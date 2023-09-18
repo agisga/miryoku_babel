@@ -20,8 +20,8 @@ U_NP,              U_NP,              U_NU,              U_NU,              U_NU
 
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAK_FLIP \
 q,                 w,                 f,                 p,                 g,                 j,                 l,                 u,                 y,                 U_QUOT,            \
-U_MT(a, met),      U_MT(r, alt),      U_MT(s, ctl),      U_MT(t, sft),      d,                 h,                 U_MT(n, sft),      U_MT(e, ctl),      U_MT(i, alt),      U_MT(o, met),      \
-U_LT(z, U_BUTTON), U_LT(x, U_FUN),    U_MT(c, ralt),     U_LT(v, U_SYM),    b,                 k,                 m,                 bspc,              U_LT(., U_MEDIA),  U_LT(U_COMM, U_BUTTON),\
+U_MT(a, met),      U_MT(r, alt),      U_MT(s, ctl),      U_MT(t, sft),      d,                 m,                 U_MT(n, sft),      U_MT(e, ctl),      U_MT(i, alt),      U_MT(o, met),      \
+U_LT(z, U_BUTTON), U_LT(x, U_FUN),    U_MT(c, ralt),     U_LT(v, U_SYM),    b,                 k,                 h,                 bspc,              U_LT(., U_MEDIA),  U_LT(U_COMM, U_BUTTON),\
 U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAKDH_FLIP \
@@ -80,8 +80,8 @@ U_NP,              U_NP,              U_LT(esc, U_MEDIA),U_LT(spc, U_NAV),  U_LT
 
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAK \
 q,                 w,                 f,                 p,                 g,                 j,                 l,                 u,                 y,                 U_QUOT,            \
-U_MT(a, met),      U_MT(r, alt),      U_MT(s, ctl),      U_MT(t, sft),      d,                 h,                 U_MT(n, sft),      U_MT(e, ctl),      U_MT(i, alt),      U_MT(o, met),      \
-U_LT(z, U_BUTTON), U_MT(x, ralt),     c,                 v,                 b,                 k,                 m,                 bspc,              U_MT(., ralt),     U_LT(U_COMM, U_BUTTON),\
+U_MT(a, met),      U_MT(r, alt),      U_MT(s, ctl),      U_MT(t, sft),      d,                 m,                 U_MT(n, sft),      U_MT(e, ctl),      U_MT(i, alt),      U_MT(o, met),      \
+U_LT(z, U_BUTTON), U_MT(x, ralt),     c,                 v,                 b,                 k,                 h,                 bspc,              U_MT(., ralt),     U_LT(U_COMM, U_BUTTON),\
 U_NP,              U_NP,              U_LT(esc, U_MEDIA),U_LT(spc, U_NAV),  U_LT(tab, U_MOUSE),U_LT(ent, U_SYM),  U_LT(bspc, U_NUM), U_LT(del, U_FUN),  U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAKDH \
@@ -141,8 +141,8 @@ U_NP,              U_NP,              U_NU,              U_NU,              U_NU
 
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAK_FLIP \
 q,                 w,                 f,                 p,                 g,                 j,                 l,                 u,                 y,                 U_QUOT,            \
-a,                 r,                 s,                 t,                 d,                 h,                 n,                 e,                 i,                 o,                 \
-z,                 x,                 c,                 v,                 b,                 k,                 m,                 bspc,              .,                 U_COMM,            \
+a,                 r,                 s,                 t,                 d,                 m,                 n,                 e,                 i,                 o,                 \
+z,                 x,                 c,                 v,                 b,                 k,                 h,                 bspc,              .,                 U_COMM,            \
 U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              spc,               spc,               U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAKDH_FLIP \
@@ -201,8 +201,8 @@ U_NP,              U_NP,              esc,               spc,               tab,
 
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAK \
 q,                 w,                 f,                 p,                 g,                 j,                 l,                 u,                 y,                 U_QUOT,            \
-a,                 r,                 s,                 t,                 d,                 h,                 n,                 e,                 i,                 o,                 \
-z,                 x,                 c,                 v,                 b,                 k,                 m,                 bspc,              .,                 U_COMM,            \
+a,                 r,                 s,                 t,                 d,                 m,                 n,                 e,                 i,                 o,                 \
+z,                 x,                 c,                 v,                 b,                 k,                 h,                 bspc,              .,                 U_COMM,            \
 U_NP,              U_NP,              esc,               spc,               tab,               ent,               bspc,              del,               U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAKDH \

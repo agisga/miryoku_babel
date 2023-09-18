@@ -207,8 +207,8 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 
 #+NAME: colemak
 | Q | W | F | P | G | J | L | U    | Y   | ' |
-| A | R | S | T | D | H | N | E    | I   | O |
-| Z | X | C | V | B | K | M | BSPC | DOT | , |
+| A | R | S | T | D | M | N | E    | I   | O |
+| Z | X | C | V | B | K | H | BSPC | DOT | , |
 
 ***** Colemak Mod-DHk
 
