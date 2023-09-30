@@ -9,61 +9,61 @@
 #define MIRYOKU_ALTERNATIVES_BASE_AZERTY_FLIP \
 a,                 z,                 e,                 r,                 t,                 y,                 u,                 i,                 o,                 p,                 \
 U_MT(q, met),      U_MT(s, alt),      U_MT(d, ctl),      U_MT(f, sft),      g,                 h,                 U_MT(j, sft),      U_MT(k, ctl),      U_MT(l, alt),      U_MT(m, met),      \
-U_LT(w, U_BUTTON), U_LT(x, U_FUN),    U_MT(c, ralt),     U_LT(v, U_SYM),    b,                 n,                 U_COMM,            .,                 U_LT(/, U_MEDIA),  U_LT(U_QUOT, U_BUTTON),\
+U_LT(w, U_BUTTON), U_LT(x, U_FUN),    U_MT(c, ralt),     U_LT(v, U_SYM),    b,                 n,                 U_LT(U_COMM, U_NAV),.,                 U_LT(/, U_MEDIA),  U_LT(U_QUOT, U_BUTTON),\
 U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_BEAKL15_FLIP \
 q,                 h,                 o,                 u,                 x,                 g,                 c,                 r,                 f,                 z,                 \
 U_MT(y, met),      U_MT(i, alt),      U_MT(e, ctl),      U_MT(a, sft),      .,                 d,                 U_MT(s, sft),      U_MT(t, ctl),      U_MT(n, alt),      U_MT(b, met),      \
-U_LT(j, U_BUTTON), U_LT(/, U_FUN),    U_MT(U_COMM, ralt),U_LT(k, U_SYM),    U_QUOT,            w,                 m,                 l,                 U_LT(p, U_MEDIA),  U_LT(v, U_BUTTON), \
+U_LT(j, U_BUTTON), U_LT(/, U_FUN),    U_MT(U_COMM, ralt),U_LT(k, U_SYM),    U_QUOT,            w,                 U_LT(m, U_NAV),    l,                 U_LT(p, U_MEDIA),  U_LT(v, U_BUTTON), \
 U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAK_FLIP \
 q,                 w,                 f,                 p,                 g,                 j,                 l,                 u,                 y,                 U_QUOT,            \
 U_MT(a, met),      U_MT(r, alt),      U_MT(s, ctl),      U_MT(t, sft),      d,                 m,                 U_MT(n, sft),      U_MT(e, ctl),      U_MT(i, alt),      U_MT(o, met),      \
-U_LT(z, U_BUTTON), U_LT(x, U_FUN),    U_MT(c, ralt),     U_LT(v, U_SYM),    b,                 k,                 h,                 bspc,              U_LT(., U_MEDIA),  U_LT(U_COMM, U_BUTTON),\
+U_LT(z, U_BUTTON), U_LT(x, U_FUN),    U_MT(c, ralt),     U_LT(v, U_SYM),    b,                 k,                 U_LT(h, U_NAV),    bspc,              U_LT(., U_MEDIA),  U_LT(U_COMM, U_BUTTON),\
 U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAKDH_FLIP \
 q,                 w,                 f,                 p,                 b,                 j,                 l,                 u,                 y,                 U_QUOT,            \
 U_MT(a, met),      U_MT(r, alt),      U_MT(s, ctl),      U_MT(t, sft),      g,                 m,                 U_MT(n, sft),      U_MT(e, ctl),      U_MT(i, alt),      U_MT(o, met),      \
-U_LT(z, U_BUTTON), U_LT(x, U_FUN),    U_MT(c, ralt),     U_LT(d, U_SYM),    v,                 k,                 h,                 U_COMM,            U_LT(., U_MEDIA),  U_LT(/, U_BUTTON), \
+U_LT(z, U_BUTTON), U_LT(x, U_FUN),    U_MT(c, ralt),     U_LT(d, U_SYM),    v,                 k,                 U_LT(h, U_NAV),    U_COMM,            U_LT(., U_MEDIA),  U_LT(/, U_BUTTON), \
 U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAKDHK_FLIP \
 q,                 w,                 f,                 p,                 b,                 j,                 l,                 u,                 y,                 U_QUOT,            \
 U_MT(a, met),      U_MT(r, alt),      U_MT(s, ctl),      U_MT(t, sft),      g,                 k,                 U_MT(n, sft),      U_MT(e, ctl),      U_MT(i, alt),      U_MT(o, met),      \
-U_LT(z, U_BUTTON), U_LT(x, U_FUN),    U_MT(c, ralt),     U_LT(d, U_SYM),    v,                 m,                 h,                 U_COMM,            U_LT(., U_MEDIA),  U_LT(/, U_BUTTON), \
+U_LT(z, U_BUTTON), U_LT(x, U_FUN),    U_MT(c, ralt),     U_LT(d, U_SYM),    v,                 m,                 U_LT(h, U_NAV),    U_COMM,            U_LT(., U_MEDIA),  U_LT(/, U_BUTTON), \
 U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_DVORAK_FLIP \
 U_QUOT,            U_COMM,            .,                 p,                 y,                 f,                 g,                 c,                 r,                 l,                 \
 U_MT(a, met),      U_MT(o, alt),      U_MT(e, ctl),      U_MT(u, sft),      i,                 d,                 U_MT(h, sft),      U_MT(t, ctl),      U_MT(n, alt),      U_MT(s, met),      \
-U_LT(/, U_BUTTON), U_LT(q, U_FUN),    U_MT(j, ralt),     U_LT(k, U_SYM),    x,                 b,                 m,                 w,                 U_LT(v, U_MEDIA),  U_LT(z, U_BUTTON), \
+U_LT(/, U_BUTTON), U_LT(q, U_FUN),    U_MT(j, ralt),     U_LT(k, U_SYM),    x,                 b,                 U_LT(m, U_NAV),    w,                 U_LT(v, U_MEDIA),  U_LT(z, U_BUTTON), \
 U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_HALMAK_FLIP \
 w,                 l,                 r,                 b,                 z,                 U_QUOT,            q,                 u,                 d,                 j,                 \
 U_MT(s, met),      U_MT(h, alt),      U_MT(n, ctl),      U_MT(t, sft),      U_COMM,            .,                 U_MT(a, sft),      U_MT(e, ctl),      U_MT(o, alt),      U_MT(i, met),      \
-U_LT(f, U_BUTTON), U_LT(m, U_FUN),    U_MT(v, ralt),     U_LT(c, U_SYM),    /,                 g,                 p,                 x,                 U_LT(k, U_MEDIA),  U_LT(y, U_BUTTON), \
+U_LT(f, U_BUTTON), U_LT(m, U_FUN),    U_MT(v, ralt),     U_LT(c, U_SYM),    /,                 g,                 U_LT(p, U_NAV),    x,                 U_LT(k, U_MEDIA),  U_LT(y, U_BUTTON), \
 U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_WORKMAN_FLIP \
 q,                 d,                 r,                 w,                 b,                 j,                 f,                 u,                 p,                 U_QUOT,            \
 U_MT(a, met),      U_MT(s, alt),      U_MT(h, ctl),      U_MT(t, sft),      g,                 y,                 U_MT(n, sft),      U_MT(e, ctl),      U_MT(o, alt),      U_MT(i, met),      \
-U_LT(z, U_BUTTON), U_LT(x, U_FUN),    U_MT(m, ralt),     U_LT(c, U_SYM),    v,                 k,                 l,                 U_COMM,            U_LT(., U_MEDIA),  U_LT(/, U_BUTTON), \
+U_LT(z, U_BUTTON), U_LT(x, U_FUN),    U_MT(m, ralt),     U_LT(c, U_SYM),    v,                 k,                 U_LT(l, U_NAV),    U_COMM,            U_LT(., U_MEDIA),  U_LT(/, U_BUTTON), \
 U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_QWERTY_FLIP \
 q,                 w,                 e,                 r,                 t,                 y,                 u,                 i,                 o,                 p,                 \
 U_MT(a, met),      U_MT(s, alt),      U_MT(d, ctl),      U_MT(f, sft),      g,                 h,                 U_MT(j, sft),      U_MT(k, ctl),      U_MT(l, alt),      U_MT(U_QUOT, met), \
-U_LT(z, U_BUTTON), U_LT(x, U_FUN),    U_MT(c, ralt),     U_LT(v, U_SYM),    b,                 n,                 m,                 U_COMM,            U_LT(., U_MEDIA),  U_LT(/, U_BUTTON), \
+U_LT(z, U_BUTTON), U_LT(x, U_FUN),    U_MT(c, ralt),     U_LT(v, U_SYM),    b,                 n,                 U_LT(m, U_NAV),    U_COMM,            U_LT(., U_MEDIA),  U_LT(/, U_BUTTON), \
 U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_QWERTZ_FLIP \
 q,                 w,                 e,                 r,                 t,                 z,                 u,                 i,                 o,                 p,                 \
 U_MT(a, met),      U_MT(s, alt),      U_MT(d, ctl),      U_MT(f, sft),      g,                 h,                 U_MT(j, sft),      U_MT(k, ctl),      U_MT(l, alt),      U_MT(U_QUOT, met), \
-U_LT(y, U_BUTTON), U_LT(x, U_FUN),    U_MT(c, ralt),     U_LT(v, U_SYM),    b,                 n,                 m,                 U_COMM,            U_LT(., U_MEDIA),  U_LT(/, U_BUTTON), \
+U_LT(y, U_BUTTON), U_LT(x, U_FUN),    U_MT(c, ralt),     U_LT(v, U_SYM),    b,                 n,                 U_LT(m, U_NAV),    U_COMM,            U_LT(., U_MEDIA),  U_LT(/, U_BUTTON), \
 U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT(spc, U_MOUSE),U_LT(spc, U_NAV),  U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_AZERTY \
@@ -251,13 +251,13 @@ U_NP,              U_NP,              esc,               spc,               tab,
 #define MIRYOKU_ALTERNATIVES_NAV_INVERTEDT_FLIP \
 pgup,              home,              up,                end,               ins,               U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_NA,              \
 pgdn,              left,              down,              right,             caps,              U_NA,              sft,               ctl,               alt,               met,               \
-bspc,              U_CUT,             U_CPY,             U_PST,             del,               U_NA,              U_DF(U_NAV),       U_DF(U_NUM),       U_NA,              U_NA,              \
+bspc,              U_CUT,             U_CPY,             U_PST,             del,               U_DF(U_NAV),       U_NA,              U_DF(U_NUM),       U_NA,              U_NA,              \
 U_NP,              U_NP,              esc,               comp,              ent,               U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NAV_FLIP \
 home,              pgdn,              pgup,              end,               ins,               U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_NA,              \
 left,              down,              up,                right,             caps,              U_NA,              sft,               ctl,               alt,               met,               \
-U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_NA,              U_DF(U_NAV),       U_DF(U_NUM),       U_NA,              U_NA,              \
+U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_DF(U_NAV),       U_NA,              U_DF(U_NUM),       U_NA,              U_NA,              \
 U_NP,              U_NP,              del,               bspc,              ent,               U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NAV_INVERTEDT \
@@ -282,13 +282,13 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 #define MIRYOKU_ALTERNATIVES_MOUSE_INVERTEDT_FLIP \
 U_NU,              U_NU,              kp8,               U_NU,              U_NU,              U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_NA,              \
 U_NU,              kp4,               kp2,               kp6,               U_NU,              U_NA,              sft,               ctl,               alt,               met,               \
-U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_NA,              U_DF(U_MOUSE),     U_DF(U_SYM),       U_NA,              U_NA,              \
+U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_DF(U_MOUSE),     U_NA,              U_DF(U_SYM),       U_NA,              U_NA,              \
 U_NP,              U_NP,              #(kp* kp5),        #(kp/ kp5),        #(kp- kp5),        U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_MOUSE_FLIP \
 U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_NA,              \
 kp4,               kp2,               kp8,               kp6,               U_NU,              U_NA,              sft,               ctl,               alt,               met,               \
-U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_NA,              U_DF(U_MOUSE),     U_DF(U_SYM),       U_NA,              U_NA,              \
+U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_DF(U_MOUSE),     U_NA,              U_DF(U_SYM),       U_NA,              U_NA,              \
 U_NP,              U_NP,              #(kp* kp5),        #(kp/ kp5),        #(kp- kp5),        U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_MOUSE_INVERTEDT \
@@ -313,13 +313,13 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 #define MIRYOKU_ALTERNATIVES_MEDIA_INVERTEDT_FLIP \
 U_NU,              U_NU,              volu,              U_NU,              U_NU,              U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_NA,              \
 U_NU,              previoussong,      vold,              nextsong,          U_NU,              U_NA,              sft,               ctl,               alt,               met,               \
-U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NA,              U_DF(U_MEDIA),     U_DF(U_FUN),       U_NA,              U_NA,              \
+U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_DF(U_MEDIA),     U_NA,              U_DF(U_FUN),       U_NA,              U_NA,              \
 U_NP,              U_NP,              mute,              playpause,         stopcd,            U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_MEDIA_FLIP \
 U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NA,              U_DF(U_BASE),      U_DF(U_EXTRA),     U_DF(U_TAP),       U_NA,              \
 previoussong,      vold,              volu,              nextsong,          U_NU,              U_NA,              sft,               ctl,               alt,               met,               \
-U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_NA,              U_DF(U_MEDIA),     U_DF(U_FUN),       U_NA,              U_NA,              \
+U_NU,              U_NU,              U_NU,              U_NU,              U_NU,              U_DF(U_MEDIA),     U_NA,              U_DF(U_FUN),       U_NA,              U_NA,              \
 U_NP,              U_NP,              mute,              playpause,         stopcd,            U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_MEDIA_INVERTEDT \
