@@ -90,8 +90,7 @@ The base layer is maintained as separate tables for tap alphas, tap thumbs, and 
 #+NAME: colemakdh
 | Q     | W     | F     | P     | B     | J     | L     | U     | Y     | '     |
 | A     | R     | S     | T     | G     | M     | N     | E     | I     | O     |
-| Z     | X     | C     | D     | V     | K     | H     | ,     | DOT   | /     |
-
+| Z     | X     | C     | D     | V     | K     | H     | BSPC  | DOT   | ,     |
 
 ***** Thumbs
 
@@ -372,7 +371,7 @@ Not available with ~MIRYOKU_LAYERS=FLIP~.
 ******* Full-table
 
 #+NAME: num-r-full-table
-| CG_LEFT | CG_RIGHT | TAB   | DEL       |       | [ | 7 | 8 | 9 | ]    |
+| CG_LEFT | CG_RIGHT | TAB   | DEL       | ESC   | [ | 7 | 8 | 9 | ]    |
 | LGUI    | LALT     | LCTL  | LSFT_SLSH | ?     | = | 4 | 5 | 6 | MINS |
 | U_UND   | U_CUT    | U_CPY | U_PST     | U_RDO | \ | 1 | 2 | 3 | `    |
 

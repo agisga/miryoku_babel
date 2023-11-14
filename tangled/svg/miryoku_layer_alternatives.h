@@ -27,7 +27,7 @@ U_NP,              U_NP,              U_NU,              U_NU,              U_NU
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAKDH_FLIP \
 "Q",               "W",               "F",               "P",               "B",               "J",               "L",               "U",               "Y",               U_S("\"", "'"),    \
 U_MT("A", "Meta"), U_MT("R", "Alt"),  U_MT("S", "Ctrl"), U_MT("T", "Shift"),"G",               "M",               U_MT("N", "Shift"),U_MT("E", "Ctrl"), U_MT("I", "Alt"),  U_MT("O", "Meta"), \
-U_LT("Z", U_BUTTON),U_LT("X", U_FUN),  U_MT("C", "AltGr"),U_LT("D", U_SYM),  "V",               "K",               U_LT("H", U_NAV),  U_S("<", "S_COMM"),U_SLT(">", ".", U_MEDIA),U_SLT("?", "/", U_BUTTON),\
+U_LT("Z", U_BUTTON),U_LT("X", U_FUN),  U_MT("C", "AltGr"),U_LT("D", U_SYM),  "V",               "K",               U_LT("H", U_NAV),  "Back Space",      U_SLT(">", ".", U_MEDIA),U_SLT("<", "S_COMM", U_BUTTON),\
 U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              U_LT("Space", U_MOUSE),U_LT("Space", U_NAV),U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAKDHK_FLIP \
@@ -87,7 +87,7 @@ U_NP,              U_NP,              U_LT("Esc", U_MEDIA),U_LT("Space", U_NAV),
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAKDH \
 "Q",               "W",               "F",               "P",               "B",               "J",               "L",               "U",               "Y",               U_S("\"", "'"),    \
 U_MT("A", "Meta"), U_MT("R", "Alt"),  U_MT("S", "Ctrl"), U_MT("T", "Shift"),"G",               "M",               U_MT("N", "Shift"),U_MT("E", "Ctrl"), U_MT("I", "Alt"),  U_MT("O", "Meta"), \
-U_LT("Z", U_BUTTON),U_MT("X", "AltGr"),"C",               "D",               "V",               "K",               "H",               U_S("<", "S_COMM"),U_SMT(">", ".", "AltGr"),U_SLT("?", "/", U_BUTTON),\
+U_LT("Z", U_BUTTON),U_MT("X", "AltGr"),"C",               "D",               "V",               "K",               "H",               "Back Space",      U_SMT(">", ".", "AltGr"),U_SLT("<", "S_COMM", U_BUTTON),\
 U_NP,              U_NP,              U_LT("Esc", U_MEDIA),U_LT("Space", U_NAV),U_LT("Tab", U_MOUSE),U_LT("Enter", U_SYM),U_LT("Back Space", U_NUM),U_LT("Delete", U_FUN),U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAKDHK \
@@ -148,7 +148,7 @@ U_NP,              U_NP,              U_NU,              U_NU,              U_NU
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAKDH_FLIP \
 "Q",               "W",               "F",               "P",               "B",               "J",               "L",               "U",               "Y",               "'",               \
 "A",               "R",               "S",               "T",               "G",               "M",               "N",               "E",               "I",               "O",               \
-"Z",               "X",               "C",               "D",               "V",               "K",               "H",               "S_COMM",          ".",               "/",               \
+"Z",               "X",               "C",               "D",               "V",               "K",               "H",               "Back Space",      ".",               "S_COMM",          \
 U_NP,              U_NP,              U_NU,              U_NU,              U_NU,              "Space",           "Space",           U_NU,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAKDHK_FLIP \
@@ -208,7 +208,7 @@ U_NP,              U_NP,              "Esc",             "Space",           "Tab
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAKDH \
 "Q",               "W",               "F",               "P",               "B",               "J",               "L",               "U",               "Y",               "'",               \
 "A",               "R",               "S",               "T",               "G",               "M",               "N",               "E",               "I",               "O",               \
-"Z",               "X",               "C",               "D",               "V",               "K",               "H",               "S_COMM",          ".",               "/",               \
+"Z",               "X",               "C",               "D",               "V",               "K",               "H",               "Back Space",      ".",               "S_COMM",          \
 U_NP,              U_NP,              "Esc",             "Space",           "Tab",             "Enter",           "Back Space",      "Delete",          U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAKDHK \
